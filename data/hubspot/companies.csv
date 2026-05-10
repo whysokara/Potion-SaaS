@@ -1,0 +1,11 @@
+hs_company_id,domain,company_name,industry,employee_count_range,country,created_date,num_contacts
+hs_co_0dc3727d04,gmail.com,Gmail Corp,Media,1-10,United States,2024-01-01,4
+hs_co_9bfdc2b541,labs.dev,Labs Corp,Healthcare,1-10,United States,2024-01-01,1
+hs_co_efb84d3723,digital.com,Digital LLC,Media,11-50,United States,2024-01-01,5
+hs_co_6cd66689d7,yahoo.com,Yahoo AI,Education,51-200,United States,2024-01-01,7
+hs_co_4f3279bb30,works.io,Works Labs,Education,51-200,United States,2024-01-01,3
+hs_co_54d0fb7317,ventures.co,Ventures LLC,Finance,11-50,United States,2024-01-02,6
+hs_co_4cea269c30,techcorp.com,Techcorp AI,SaaS,51-200,United States,2024-01-02,6
+hs_co_ca6ed4c9f8,startup.ai,Startup HQ,Real Estate,51-200,United States,2024-01-03,6
+hs_co_a222cab6ba,company.io,Company HQ,Media,1-10,United States,2024-01-03,3
+hs_co_3d79570365,outlook.com,Outlook Inc,Real Estate,1-10,United States,2024-01-07,2

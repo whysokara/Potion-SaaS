@@ -1,0 +1,181 @@
+demo_id,user_id,source,requested_at,scheduled,showed_up,converted_to_paid,owner,notes
+demo_b9103701fd,usr_01447,outbound,2025-02-21,True,True,True,alice@writely.ai,Budget constrained
+demo_a8a11c987c,prospect_0185,outbound,2025-04-26,True,False,False,carol@writely.ai,Strong use case
+demo_7933512201,usr_01749,outbound,2025-06-17,True,True,False,alice@writely.ai,Ready to buy
+demo_8bf74831cd,prospect_0142,product_in_app,2025-05-01,True,True,False,alice@writely.ai,Needs legal approval
+demo_b000266ee2,prospect_0049,linkedin_ad,2024-12-01,True,True,True,alice@writely.ai,Budget constrained
+demo_5336ac83b3,prospect_0178,outbound,2024-03-15,True,True,False,alice@writely.ai,Ready to buy
+demo_4af7c51d1d,prospect_0124,linkedin_ad,2024-07-13,True,True,False,bob@writely.ai,No show
+demo_44a6183f45,usr_04185,website_cta,2024-07-11,True,True,False,bob@writely.ai,Interested in team plan
+demo_f2ae801296,usr_02987,referral,2024-08-27,True,True,True,bob@writely.ai,Interested in team plan
+demo_8a2522c474,usr_04822,product_in_app,2024-06-18,True,False,False,alice@writely.ai,Evaluating Q3
+demo_b58bacd6e5,prospect_0130,paid_ad,2024-05-12,False,False,False,bob@writely.ai,No show
+demo_2129e90794,usr_00265,product_in_app,2024-09-10,True,True,False,bob@writely.ai,Budget constrained
+demo_2c01094f3d,prospect_0151,referral,2024-07-26,True,False,False,carol@writely.ai,No show
+demo_41543e5cd1,usr_01713,website_cta,2024-12-03,True,True,True,carol@writely.ai,Interested in team plan
+demo_c821cbb7a6,usr_02259,outbound,2024-03-09,True,True,True,bob@writely.ai,Strong use case
+demo_f8247484b6,prospect_0119,linkedin_ad,2024-03-16,True,True,False,alice@writely.ai,Budget constrained
+demo_2ed90a2256,usr_00667,website_cta,2025-06-06,True,True,False,bob@writely.ai,Interested in team plan
+demo_861b75e48f,prospect_0089,referral,2024-11-24,True,True,True,bob@writely.ai,Strong use case
+demo_2b490c7e49,usr_04647,product_in_app,2024-08-13,False,False,False,alice@writely.ai,No show
+demo_05e1a8db52,usr_04523,website_cta,2024-03-02,False,False,False,bob@writely.ai,Budget constrained
+demo_4ea55c5503,prospect_0145,website_cta,2024-09-02,False,False,False,carol@writely.ai,Interested in team plan
+demo_e7d896ff3a,prospect_0121,outbound,2024-04-18,True,False,False,bob@writely.ai,Comparing with competitors
+demo_c6008e26b4,usr_03053,outbound,2025-01-20,False,False,False,alice@writely.ai,Budget constrained
+demo_ff3548bb69,usr_03582,outbound,2025-03-09,False,False,False,alice@writely.ai,Interested in team plan
+demo_0f93b17b96,usr_04162,website_cta,2024-08-18,False,False,False,alice@writely.ai,Interested in team plan
+demo_03450cf614,usr_02739,paid_ad,2025-04-24,True,True,True,alice@writely.ai,Evaluating Q3
+demo_f55ca4098b,usr_03756,website_cta,2024-02-20,True,True,False,bob@writely.ai,Comparing with competitors
+demo_c3528d49e1,prospect_0167,referral,2024-10-01,True,True,False,alice@writely.ai,Budget constrained
+demo_bbcf9ee443,usr_00248,outbound,2025-02-12,True,True,True,bob@writely.ai,No show
+demo_6ec9abf0bf,usr_01929,referral,2024-04-26,True,True,False,bob@writely.ai,Strong use case
+demo_411184b460,prospect_0057,product_in_app,2024-10-09,True,True,True,carol@writely.ai,Needs legal approval
+demo_b310f9591e,usr_00072,referral,2024-03-05,True,True,True,bob@writely.ai,Strong use case
+demo_6c16b9a00e,usr_04190,website_cta,2024-05-22,False,False,False,carol@writely.ai,No show
+demo_badd9c875d,prospect_0150,paid_ad,2024-10-20,True,True,False,carol@writely.ai,Ready to buy
+demo_7f3995a2d6,usr_01668,outbound,2024-02-03,True,True,True,alice@writely.ai,Comparing with competitors
+demo_f37873135e,usr_00924,referral,2025-03-12,True,True,False,bob@writely.ai,Strong use case
+demo_77cde01a13,usr_01144,linkedin_ad,2024-12-18,False,False,False,bob@writely.ai,Comparing with competitors
+demo_e00f374488,prospect_0111,outbound,2024-07-06,True,True,True,carol@writely.ai,No show
+demo_53d2d11ddd,prospect_0148,product_in_app,2024-11-27,True,True,True,bob@writely.ai,Needs legal approval
+demo_9dbbf23b1f,usr_03534,website_cta,2025-03-08,False,False,False,alice@writely.ai,Evaluating Q3
+demo_08ad303bf0,prospect_0150,product_in_app,2025-05-01,True,True,True,bob@writely.ai,Interested in team plan
+demo_fc6b2d38db,usr_02119,paid_ad,2025-01-22,True,True,False,bob@writely.ai,No show
+demo_6306b69689,usr_04486,linkedin_ad,2025-05-11,True,True,True,alice@writely.ai,Strong use case
+demo_577346a1cd,usr_02469,referral,2024-10-22,False,False,False,bob@writely.ai,Interested in team plan
+demo_c964c5efd8,prospect_0109,referral,2025-06-20,True,False,False,bob@writely.ai,Needs legal approval
+demo_67f9c3c525,usr_01672,paid_ad,2024-04-22,True,True,False,alice@writely.ai,Comparing with competitors
+demo_6b23a1fb50,prospect_0072,website_cta,2025-03-06,True,False,False,carol@writely.ai,Strong use case
+demo_c0177ce8cb,prospect_0157,outbound,2024-07-01,True,True,False,carol@writely.ai,Comparing with competitors
+demo_9545633806,usr_04834,product_in_app,2025-02-27,True,False,False,alice@writely.ai,Ready to buy
+demo_300ef221f6,usr_02980,product_in_app,2024-05-14,True,True,False,carol@writely.ai,Budget constrained
+demo_6d2716f446,prospect_0114,product_in_app,2025-04-14,True,True,False,carol@writely.ai,Comparing with competitors
+demo_1f1ba556d2,prospect_0186,outbound,2024-12-19,True,True,True,bob@writely.ai,Strong use case
+demo_380421974f,prospect_0181,referral,2024-12-27,True,True,True,bob@writely.ai,Budget constrained
+demo_8fe7814a1f,usr_02164,product_in_app,2025-01-30,True,True,True,alice@writely.ai,Ready to buy
+demo_5ef0600022,usr_04897,referral,2024-11-22,False,False,False,carol@writely.ai,Strong use case
+demo_13efbc1389,usr_00046,outbound,2024-11-27,True,True,False,alice@writely.ai,Ready to buy
+demo_a7a83c4bdb,prospect_0119,outbound,2024-07-31,False,False,False,bob@writely.ai,Comparing with competitors
+demo_6b865cc6e2,usr_03547,website_cta,2025-06-24,True,True,True,bob@writely.ai,Budget constrained
+demo_8d731cba56,usr_04461,referral,2025-02-16,True,True,True,carol@writely.ai,Needs legal approval
+demo_0a3a955cf1,prospect_0123,outbound,2025-06-21,False,False,False,alice@writely.ai,Budget constrained
+demo_a75270f09a,prospect_0125,linkedin_ad,2024-12-22,True,True,False,bob@writely.ai,Interested in team plan
+demo_404b974c6d,usr_03391,paid_ad,2024-03-01,False,False,False,bob@writely.ai,Interested in team plan
+demo_325c03e9ed,usr_04157,paid_ad,2024-06-11,True,False,False,bob@writely.ai,No show
+demo_18a31f24cc,prospect_0116,paid_ad,2025-05-07,True,True,False,alice@writely.ai,Ready to buy
+demo_e0bcf052ac,prospect_0123,linkedin_ad,2025-02-04,False,False,False,carol@writely.ai,Comparing with competitors
+demo_da6032cb9b,usr_00351,outbound,2025-01-30,False,False,False,alice@writely.ai,Ready to buy
+demo_2faa41754c,prospect_0011,referral,2025-01-23,True,False,False,alice@writely.ai,Strong use case
+demo_abce0957e6,prospect_0110,linkedin_ad,2025-06-28,True,True,False,carol@writely.ai,Needs legal approval
+demo_81bbce35ba,usr_03556,product_in_app,2024-10-05,True,True,False,carol@writely.ai,Budget constrained
+demo_1517da97a1,usr_01749,outbound,2024-09-27,True,True,False,bob@writely.ai,Comparing with competitors
+demo_d36623a9a6,prospect_0114,website_cta,2024-08-11,True,True,False,alice@writely.ai,Budget constrained
+demo_6f0fdeff0a,usr_02279,outbound,2025-02-28,True,True,False,bob@writely.ai,Strong use case
+demo_7141b17e3b,prospect_0122,product_in_app,2025-03-26,True,True,False,carol@writely.ai,Needs legal approval
+demo_babd66bc97,prospect_0126,website_cta,2024-07-27,True,True,True,bob@writely.ai,Budget constrained
+demo_3c17f78801,prospect_0153,website_cta,2024-06-27,False,False,False,carol@writely.ai,No show
+demo_b6f56dc420,prospect_0094,linkedin_ad,2025-03-07,True,True,False,bob@writely.ai,Ready to buy
+demo_eb6024dd38,usr_01140,referral,2025-06-28,False,False,False,bob@writely.ai,Strong use case
+demo_4b0a835a75,usr_01759,paid_ad,2024-04-22,False,False,False,alice@writely.ai,Budget constrained
+demo_6f3825bfa9,prospect_0108,website_cta,2024-02-28,True,True,True,alice@writely.ai,Evaluating Q3
+demo_03e05af4e0,prospect_0175,outbound,2025-06-01,False,False,False,carol@writely.ai,Budget constrained
+demo_986598aaa7,usr_02309,product_in_app,2024-07-23,False,False,False,carol@writely.ai,Ready to buy
+demo_90320cd074,usr_01395,website_cta,2024-07-30,False,False,False,alice@writely.ai,Ready to buy
+demo_26539d8583,usr_03612,referral,2025-04-17,True,True,True,alice@writely.ai,Evaluating Q3
+demo_c46d167240,usr_03259,paid_ad,2024-07-10,True,True,False,bob@writely.ai,Strong use case
+demo_c1afacc9a0,prospect_0200,linkedin_ad,2024-02-05,False,False,False,bob@writely.ai,Needs legal approval
+demo_8eb89a8995,prospect_0060,referral,2024-10-29,True,False,False,alice@writely.ai,Budget constrained
+demo_2dfa611fe0,usr_03562,linkedin_ad,2024-07-09,True,True,True,bob@writely.ai,Interested in team plan
+demo_5d45c5bc4f,usr_02073,outbound,2025-03-23,False,False,False,carol@writely.ai,Needs legal approval
+demo_f0fcc0f1df,prospect_0071,referral,2025-01-11,True,True,False,carol@writely.ai,Comparing with competitors
+demo_fa2bc68419,usr_01740,linkedin_ad,2025-01-20,False,False,False,carol@writely.ai,Interested in team plan
+demo_6b26424b2f,usr_03784,referral,2024-04-29,True,True,False,carol@writely.ai,Strong use case
+demo_cab0379b29,prospect_0037,outbound,2024-05-09,True,True,True,alice@writely.ai,Comparing with competitors
+demo_657813ba4f,usr_00835,paid_ad,2024-12-11,True,True,False,alice@writely.ai,Evaluating Q3
+demo_a295461775,usr_01457,outbound,2025-04-09,True,True,False,bob@writely.ai,No show
+demo_dbc0f518a2,usr_03138,product_in_app,2025-01-19,False,False,False,alice@writely.ai,Needs legal approval
+demo_fbca4f1b78,usr_01113,referral,2025-05-26,True,True,False,alice@writely.ai,No show
+demo_fa5128afb1,prospect_0180,outbound,2024-09-21,False,False,False,carol@writely.ai,Evaluating Q3
+demo_ae91ad6f35,usr_02594,linkedin_ad,2024-09-18,True,True,False,alice@writely.ai,Interested in team plan
+demo_f3f1d264a6,prospect_0060,referral,2025-01-12,True,True,False,alice@writely.ai,Evaluating Q3
+demo_adfa104476,prospect_0146,product_in_app,2025-02-04,False,False,False,alice@writely.ai,Strong use case
+demo_8e875cbfbe,usr_03935,referral,2024-06-25,False,False,False,bob@writely.ai,Comparing with competitors
+demo_f5814afb99,usr_00733,outbound,2024-04-22,True,True,False,bob@writely.ai,Strong use case
+demo_f7a4349e47,usr_02613,paid_ad,2025-01-08,True,True,True,alice@writely.ai,Ready to buy
+demo_3dc4710437,prospect_0166,product_in_app,2024-07-26,True,True,True,alice@writely.ai,Interested in team plan
+demo_ee903546c9,usr_02663,website_cta,2024-03-14,True,True,True,alice@writely.ai,Ready to buy
+demo_508094c837,usr_04941,outbound,2024-08-11,True,True,False,bob@writely.ai,Budget constrained
+demo_53f9c5f9db,usr_04554,outbound,2024-06-07,False,False,False,bob@writely.ai,Comparing with competitors
+demo_f74b829b01,prospect_0118,paid_ad,2024-05-10,True,True,True,carol@writely.ai,Strong use case
+demo_37354eff51,prospect_0052,linkedin_ad,2025-04-28,True,True,False,carol@writely.ai,Strong use case
+demo_8d044a1f97,usr_02133,outbound,2024-10-29,True,True,False,carol@writely.ai,No show
+demo_dd8ed0b3d4,usr_04233,outbound,2024-03-27,True,True,True,carol@writely.ai,Budget constrained
+demo_c814bb96e2,usr_00244,outbound,2024-06-07,True,True,False,carol@writely.ai,Evaluating Q3
+demo_b7281b369b,prospect_0068,linkedin_ad,2025-06-18,False,False,False,bob@writely.ai,Strong use case
+demo_07fb0f118f,usr_04607,website_cta,2024-12-23,True,True,False,alice@writely.ai,No show
+demo_9caee61c7d,usr_01590,referral,2024-02-17,False,False,False,bob@writely.ai,Evaluating Q3
+demo_85fc3f5467,usr_02156,linkedin_ad,2024-08-29,True,True,True,bob@writely.ai,Evaluating Q3
+demo_c1eb7f4563,prospect_0138,product_in_app,2025-03-30,True,True,True,bob@writely.ai,Comparing with competitors
+demo_f66da3c071,usr_02383,outbound,2025-06-18,True,True,False,bob@writely.ai,Interested in team plan
+demo_b63f74f2c0,usr_00626,paid_ad,2024-06-30,True,True,True,alice@writely.ai,Evaluating Q3
+demo_d17204959e,usr_03353,website_cta,2025-01-30,True,True,False,bob@writely.ai,Needs legal approval
+demo_33564d53ce,usr_00395,website_cta,2025-06-04,True,True,False,bob@writely.ai,Needs legal approval
+demo_11940c2847,prospect_0002,linkedin_ad,2024-08-24,True,True,True,bob@writely.ai,Needs legal approval
+demo_b718ce951e,usr_03161,website_cta,2024-12-19,False,False,False,bob@writely.ai,Comparing with competitors
+demo_1ef3617b0b,usr_04647,website_cta,2024-08-26,True,True,False,bob@writely.ai,Strong use case
+demo_f804e2e113,prospect_0128,referral,2024-11-21,False,False,False,bob@writely.ai,Strong use case
+demo_2950066678,usr_02803,paid_ad,2024-10-03,False,False,False,carol@writely.ai,No show
+demo_444ac85bde,prospect_0044,website_cta,2024-02-12,True,False,False,carol@writely.ai,Evaluating Q3
+demo_eed43cbbcd,usr_03020,outbound,2024-03-31,True,True,False,alice@writely.ai,Interested in team plan
+demo_d59a8d8bb3,usr_02343,linkedin_ad,2025-05-30,True,True,True,carol@writely.ai,No show
+demo_1bbcef628f,usr_00918,paid_ad,2024-08-18,False,False,False,alice@writely.ai,Comparing with competitors
+demo_521fca52ee,usr_04297,product_in_app,2024-07-14,True,True,False,alice@writely.ai,Strong use case
+demo_653dac1a1f,usr_04347,website_cta,2024-07-21,True,True,True,alice@writely.ai,Needs legal approval
+demo_d2364212b3,usr_01050,product_in_app,2024-09-03,True,True,True,alice@writely.ai,Comparing with competitors
+demo_be3cb4a5c4,prospect_0074,website_cta,2024-03-06,True,True,True,alice@writely.ai,Evaluating Q3
+demo_251be6c7df,usr_02133,outbound,2025-02-16,False,False,False,alice@writely.ai,No show
+demo_0db28d22a4,usr_00831,linkedin_ad,2024-07-26,False,False,False,carol@writely.ai,No show
+demo_9e92010329,prospect_0053,website_cta,2025-01-25,False,False,False,bob@writely.ai,Evaluating Q3
+demo_214d6108ec,usr_02510,referral,2024-09-07,False,False,False,bob@writely.ai,Ready to buy
+demo_f09fa08bcf,prospect_0074,linkedin_ad,2025-02-20,True,False,False,alice@writely.ai,Comparing with competitors
+demo_0129a71aa7,usr_02524,outbound,2025-05-10,True,True,True,bob@writely.ai,Evaluating Q3
+demo_ea44523475,prospect_0140,outbound,2024-08-16,True,True,True,carol@writely.ai,Interested in team plan
+demo_f655cb5df0,usr_04057,linkedin_ad,2024-05-17,True,True,False,bob@writely.ai,Needs legal approval
+demo_d8c82d6e47,prospect_0048,product_in_app,2024-09-14,True,True,True,bob@writely.ai,Strong use case
+demo_c4712b92c7,usr_04887,linkedin_ad,2024-05-09,True,True,False,bob@writely.ai,Interested in team plan
+demo_53b22dfda3,usr_02624,outbound,2024-12-06,True,True,False,bob@writely.ai,Comparing with competitors
+demo_0d8759e9ec,prospect_0053,referral,2024-09-28,True,True,True,bob@writely.ai,Evaluating Q3
+demo_daebfb06d0,prospect_0011,website_cta,2025-06-26,False,False,False,bob@writely.ai,Interested in team plan
+demo_736e49af87,usr_03918,referral,2024-04-19,True,True,True,alice@writely.ai,Comparing with competitors
+demo_b37eb614fa,usr_02550,paid_ad,2024-06-25,True,True,False,alice@writely.ai,Evaluating Q3
+demo_3305648f65,usr_04522,product_in_app,2024-02-26,True,True,True,bob@writely.ai,Interested in team plan
+demo_278c23d2f7,prospect_0024,paid_ad,2024-02-13,True,False,False,carol@writely.ai,Ready to buy
+demo_4fb0363ea7,prospect_0031,product_in_app,2024-08-05,True,True,True,carol@writely.ai,Ready to buy
+demo_81e9c9e033,prospect_0182,website_cta,2024-08-17,True,True,False,bob@writely.ai,Interested in team plan
+demo_81b41477e8,prospect_0038,website_cta,2025-02-18,True,True,False,carol@writely.ai,No show
+demo_b6d6456254,usr_01946,referral,2024-09-06,False,False,False,carol@writely.ai,Interested in team plan
+demo_7105cae9f9,usr_03301,paid_ad,2024-04-10,True,True,False,carol@writely.ai,Evaluating Q3
+demo_d0bc06c181,usr_02972,product_in_app,2024-12-12,True,True,False,alice@writely.ai,Needs legal approval
+demo_c1ac5d63c0,prospect_0049,website_cta,2024-07-02,True,True,True,carol@writely.ai,Budget constrained
+demo_399ace851e,prospect_0124,paid_ad,2024-02-19,True,True,False,bob@writely.ai,Comparing with competitors
+demo_d7d891440e,prospect_0024,outbound,2024-04-04,True,True,True,bob@writely.ai,Evaluating Q3
+demo_adba64d14a,usr_00180,product_in_app,2024-11-27,True,True,False,carol@writely.ai,Interested in team plan
+demo_54da98682d,usr_02630,outbound,2024-10-09,True,False,False,bob@writely.ai,No show
+demo_bb8ee63997,prospect_0195,paid_ad,2024-07-16,True,True,True,bob@writely.ai,Comparing with competitors
+demo_2ba4b88212,usr_00109,website_cta,2025-04-25,True,False,False,bob@writely.ai,Ready to buy
+demo_36c00e2f9f,usr_01595,product_in_app,2024-09-12,True,True,False,bob@writely.ai,Budget constrained
+demo_f7b83636b3,prospect_0069,outbound,2025-02-17,True,False,False,bob@writely.ai,Strong use case
+demo_a55159baad,usr_04499,product_in_app,2024-03-02,True,True,True,alice@writely.ai,Budget constrained
+demo_ced2d5ccc6,prospect_0025,referral,2024-04-15,True,True,False,bob@writely.ai,Strong use case
+demo_cad9b6208d,usr_04198,website_cta,2024-12-07,False,False,False,alice@writely.ai,Needs legal approval
+demo_a287d744ad,prospect_0045,outbound,2024-02-11,True,True,False,alice@writely.ai,No show
+demo_afda620d52,prospect_0153,referral,2024-04-26,True,True,True,alice@writely.ai,Strong use case
+demo_0045fc40de,usr_02080,linkedin_ad,2024-12-24,False,False,False,alice@writely.ai,Comparing with competitors
+demo_88b16411e4,prospect_0064,linkedin_ad,2024-08-04,True,True,True,bob@writely.ai,Budget constrained
+demo_46f57f2cc6,usr_01348,product_in_app,2024-08-29,True,True,True,carol@writely.ai,Needs legal approval
+demo_3d13ccc4d5,usr_04912,paid_ad,2024-02-18,True,False,False,bob@writely.ai,Evaluating Q3
+demo_b5308156b7,usr_00455,product_in_app,2024-11-03,True,True,False,alice@writely.ai,Budget constrained
+demo_bd0ae4523e,usr_02304,referral,2024-09-27,True,True,True,bob@writely.ai,No show
+demo_c0f307c4e4,prospect_0116,product_in_app,2025-02-19,True,True,False,alice@writely.ai,Ready to buy
+demo_f80e24b237,usr_03560,outbound,2024-11-15,True,False,False,alice@writely.ai,Ready to buy
+demo_64a6c0036e,usr_04646,paid_ad,2024-08-23,True,True,True,carol@writely.ai,Strong use case

@@ -1,0 +1,603 @@
+deal_id,user_id,deal_name,amount_usd,stage,created_date,close_date,deal_type,owner
+deal_d55d4bdc0b,usr_00023,Kevin Jones - Business,948,Closed Won,2024-01-03,2024-01-04,New Business,carol@writely.ai
+deal_d7036cb5b1,usr_00025,David Nguyen - Business,79,Closed Lost,2024-01-03,2024-02-17,New Business,carol@writely.ai
+deal_a6a0aa478e,usr_00038,Adam Jones - Business,474,Closed Won,2024-01-06,2024-01-30,New Business,bob@writely.ai
+deal_9c3a07d332,usr_00040,Adam Harris - Business,474,Closed Lost,2024-01-06,2024-02-11,New Business,carol@writely.ai
+deal_d836935cdd,usr_00061,Tyler Wang - Business,474,Closed Won,2024-01-08,2024-01-18,New Business,alice@writely.ai
+deal_1f031637b9,usr_00062,Tyler Nguyen - Business,79,Closed Won,2024-01-08,2024-02-01,New Business,carol@writely.ai
+deal_0fe0dfb7b6,usr_00069,Noah Nguyen - Business,474,Closed Lost,2024-01-09,2024-02-14,New Business,alice@writely.ai
+deal_7ba0adf748,usr_00075,Barbara Kim - Business,948,Closed Won,2024-01-10,2024-01-23,New Business,alice@writely.ai
+deal_3b73ad062d,usr_00110,Ethan Harris - Business,474,Closed Won,2024-01-15,2024-03-02,New Business,bob@writely.ai
+deal_2b5a072c1a,usr_00111,Aiden Smith - Business,948,Closed Won,2024-01-15,2024-02-24,New Business,bob@writely.ai
+deal_ee0dfa8a04,usr_00122,Evelyn Thompson - Business,79,Closed Won,2024-01-16,2024-03-06,New Business,carol@writely.ai
+deal_2000afaf51,usr_00125,Oliver Wilson - Business,948,Closed Won,2024-01-17,2024-02-20,New Business,alice@writely.ai
+deal_bf0d573665,usr_00135,Ava Jones - Business,79,Closed Won,2024-01-19,2024-02-02,New Business,bob@writely.ai
+deal_6f9f53087d,usr_00140,Natalie Patel - Business,948,Closed Lost,2024-01-20,2024-01-27,New Business,carol@writely.ai
+deal_a1a23ec41f,usr_00153,Ryan Martin - Business,948,Closed Won,2024-01-21,2024-02-22,New Business,alice@writely.ai
+deal_cbe75b3a82,usr_00166,Karen Jackson - Business,79,Closed Lost,2024-01-23,2024-02-02,New Business,bob@writely.ai
+deal_43366c9ea7,usr_00180,Elijah Young - Business,474,Closed Won,2024-01-24,2024-02-05,New Business,bob@writely.ai
+deal_557308f082,usr_00184,Jessica Reyes - Business,948,Closed Lost,2024-01-25,2024-02-17,New Business,alice@writely.ai
+deal_752345c465,usr_00186,Patricia Flores - Business,948,Closed Won,2024-01-25,2024-02-22,New Business,carol@writely.ai
+deal_404af05bd4,usr_00189,Ryan Thomas - Business,79,Closed Won,2024-01-25,2024-01-29,New Business,bob@writely.ai
+deal_2247a9e64f,usr_00194,Justin Lee - Business,79,Closed Lost,2024-01-26,2024-03-16,New Business,carol@writely.ai
+deal_2cb59ee866,usr_00202,Eric Kim - Business,948,Closed Won,2024-01-26,2024-02-09,New Business,alice@writely.ai
+deal_54ff7d44fa,usr_00205,John King - Business,474,Closed Won,2024-01-27,2024-02-07,New Business,bob@writely.ai
+deal_056c958a2e,usr_00211,Jackson Martin - Business,79,Closed Won,2024-01-28,2024-02-25,New Business,carol@writely.ai
+deal_22e7d04a54,usr_00241,Charlotte Reyes - Business,948,Closed Won,2024-01-31,2024-03-11,New Business,bob@writely.ai
+deal_5291d2a933,usr_00244,Robert Thomas - Business,948,Closed Won,2024-02-01,2024-02-20,New Business,alice@writely.ai
+deal_b4d621e708,usr_00252,Jackson Davis - Business,79,Closed Won,2024-02-02,2024-02-16,New Business,carol@writely.ai
+deal_0995ed581e,usr_00265,Natalie Garcia - Business,79,Closed Won,2024-02-04,2024-02-27,New Business,carol@writely.ai
+deal_4056559afa,usr_00279,Harper Flores - Business,474,Closed Lost,2024-02-05,2024-02-29,New Business,bob@writely.ai
+deal_b0559da8bc,usr_00281,Barbara Roberts - Business,948,Closed Won,2024-02-05,2024-02-16,New Business,carol@writely.ai
+deal_520978486f,usr_00287,Jackson Allen - Business,79,Closed Lost,2024-02-05,2024-04-05,New Business,alice@writely.ai
+deal_b9f280ca6d,usr_00313,Michael Nguyen - Business,79,Closed Lost,2024-02-09,2024-03-18,New Business,bob@writely.ai
+deal_a4aefca828,usr_00314,Elizabeth Allen - Business,474,Closed Won,2024-02-09,2024-04-05,New Business,bob@writely.ai
+deal_dc40ef4932,usr_00318,Richard White - Business,474,Closed Lost,2024-02-09,2024-03-04,New Business,bob@writely.ai
+deal_6a37e891ff,usr_00324,Aiden Baker - Business,474,Closed Won,2024-02-09,2024-04-04,New Business,carol@writely.ai
+deal_4d105dbeab,usr_00335,Jackson Patel - Business,948,Closed Won,2024-02-10,2024-04-09,New Business,bob@writely.ai
+deal_bb6e506f4b,usr_00336,Charles Anderson - Business,79,Closed Lost,2024-02-10,2024-03-08,New Business,bob@writely.ai
+deal_8de40612b4,usr_00339,Jackson Jones - Business,474,Closed Won,2024-02-11,2024-03-17,New Business,bob@writely.ai
+deal_2a4ff92a14,usr_00342,David Chen - Business,474,Closed Won,2024-02-11,2024-03-10,New Business,carol@writely.ai
+deal_95977a8dff,usr_00345,Thomas Davis - Business,474,Closed Won,2024-02-12,2024-03-04,New Business,carol@writely.ai
+deal_52a57603fd,usr_00352,Mary Smith - Business,79,Closed Won,2024-02-12,2024-02-13,New Business,bob@writely.ai
+deal_941ed779e2,usr_00358,Ryan Roberts - Business,948,Closed Won,2024-02-13,2024-04-09,New Business,bob@writely.ai
+deal_48157e4c0e,usr_00366,Oliver Smith - Business,79,Closed Won,2024-02-14,2024-03-15,New Business,bob@writely.ai
+deal_4a712f8024,usr_00388,Logan Nelson - Business,474,Closed Won,2024-02-16,2024-04-16,New Business,alice@writely.ai
+deal_0be7e28d2d,usr_00402,Harper Brown - Business,79,Closed Won,2024-02-17,2024-02-24,New Business,alice@writely.ai
+deal_da7ca3a2a0,usr_00403,Mason Anderson - Business,474,Closed Won,2024-02-18,2024-03-10,New Business,bob@writely.ai
+deal_9fd856427f,usr_00407,Oliver Harris - Business,474,Closed Won,2024-02-18,2024-03-22,New Business,alice@writely.ai
+deal_1ad89552a0,usr_00423,Adam Wang - Business,79,Closed Won,2024-02-20,2024-03-19,New Business,bob@writely.ai
+deal_214b29682d,usr_00427,Mason Wang - Business,79,Closed Won,2024-02-21,2024-04-01,New Business,carol@writely.ai
+deal_3817aff587,usr_00444,Aiden Mitchell - Business,474,Closed Lost,2024-02-23,2024-02-27,New Business,carol@writely.ai
+deal_fa948ba73a,usr_00459,Oliver Johnson - Business,948,Closed Won,2024-02-24,2024-03-21,New Business,carol@writely.ai
+deal_846f33f58e,usr_00460,Liam Roberts - Business,79,Closed Won,2024-02-24,2024-04-05,New Business,carol@writely.ai
+deal_0e0fb093ab,usr_00486,Madison Allen - Business,948,Closed Lost,2024-02-27,2024-04-18,New Business,carol@writely.ai
+deal_057ef20083,usr_00490,Susan Wright - Business,474,Closed Won,2024-02-27,2024-03-22,New Business,alice@writely.ai
+deal_37a60887c1,usr_00512,Michael Kumar - Business,474,Closed Won,2024-02-29,2024-03-27,New Business,bob@writely.ai
+deal_bbcae42c5c,usr_00553,Joseph White - Business,79,Closed Lost,2024-03-04,2024-03-05,New Business,carol@writely.ai
+deal_4a57b4e692,usr_00562,Oliver Thomas - Business,79,Closed Won,2024-03-06,2024-03-17,New Business,alice@writely.ai
+deal_40cbf35254,usr_00565,Nathan Moore - Business,948,Closed Won,2024-03-06,2024-03-18,New Business,alice@writely.ai
+deal_49cda444f2,usr_00570,Noah Lee - Business,948,Closed Lost,2024-03-06,2024-04-25,New Business,carol@writely.ai
+deal_bd2bcea7af,usr_00571,Robert White - Business,79,Closed Won,2024-03-06,2024-03-07,New Business,carol@writely.ai
+deal_9e7b407bb6,usr_00578,Grace Young - Business,474,Closed Won,2024-03-07,2024-03-26,New Business,alice@writely.ai
+deal_c3962fb7fb,usr_00579,Elijah Baker - Business,948,Closed Won,2024-03-07,2024-05-04,New Business,bob@writely.ai
+deal_a0e4636ff2,usr_00589,John Lee - Business,474,Closed Won,2024-03-08,2024-04-24,New Business,carol@writely.ai
+deal_ea4af31c4a,usr_00594,Robert Reyes - Business,474,Closed Won,2024-03-09,2024-04-08,New Business,carol@writely.ai
+deal_c31553fbf2,usr_00622,Adam Wilson - Business,948,Closed Won,2024-03-11,2024-03-17,New Business,alice@writely.ai
+deal_95a3aeb8ee,usr_00659,Richard Flores - Business,474,Closed Won,2024-03-15,2024-04-28,New Business,bob@writely.ai
+deal_c279085d1d,usr_00675,John Smith - Business,79,Closed Lost,2024-03-17,2024-04-10,New Business,carol@writely.ai
+deal_44e5e34081,usr_00683,Aiden Kumar - Business,79,Closed Lost,2024-03-18,2024-04-03,New Business,bob@writely.ai
+deal_4d274346e1,usr_00688,John Moore - Business,948,Closed Lost,2024-03-18,2024-04-02,New Business,bob@writely.ai
+deal_36f5c17dda,usr_00699,Ryan Miller - Business,474,Closed Lost,2024-03-19,2024-04-21,New Business,carol@writely.ai
+deal_a7bab2c3fb,usr_00705,Michael Brown - Business,79,Closed Won,2024-03-19,2024-04-27,New Business,carol@writely.ai
+deal_6c6bf52857,usr_00710,Hannah Singh - Business,948,Closed Lost,2024-03-20,2024-04-29,New Business,bob@writely.ai
+deal_6a017fbf4a,usr_00712,Charles Nguyen - Business,474,Closed Won,2024-03-20,2024-04-27,New Business,carol@writely.ai
+deal_1bb8ee8dd6,usr_00714,Liam Young - Business,474,Closed Won,2024-03-20,2024-05-01,New Business,alice@writely.ai
+deal_0942838ff9,usr_00730,Noah King - Business,474,Closed Won,2024-03-21,2024-03-30,New Business,carol@writely.ai
+deal_44f638ef61,usr_00744,Robert Moore - Business,948,Closed Won,2024-03-23,2024-05-06,New Business,alice@writely.ai
+deal_ac8c9f96f1,usr_00748,Justin Smith - Business,948,Closed Won,2024-03-24,2024-04-30,New Business,carol@writely.ai
+deal_9ed36e883f,usr_00749,Jessica Harris - Business,474,Closed Won,2024-03-24,2024-03-30,New Business,carol@writely.ai
+deal_4aeb0c515c,usr_00755,Aaron Wilson - Business,948,Closed Won,2024-03-24,2024-04-23,New Business,alice@writely.ai
+deal_d07ae78f8c,usr_00762,David Davis - Business,79,Closed Won,2024-03-25,2024-03-31,New Business,bob@writely.ai
+deal_22c894752f,usr_00763,Robert Baker - Business,948,Closed Won,2024-03-25,2024-04-10,New Business,carol@writely.ai
+deal_ff234fc296,usr_00770,Harper Miller - Business,948,Closed Won,2024-03-26,2024-04-30,New Business,alice@writely.ai
+deal_bfe71f4eb9,usr_00786,Emma Lee - Business,474,Closed Won,2024-03-28,2024-04-18,New Business,carol@writely.ai
+deal_7d4d3b0326,usr_00789,Logan Harris - Business,474,Closed Won,2024-03-29,2024-05-17,New Business,carol@writely.ai
+deal_4e3938834d,usr_00793,Lucas Jones - Business,79,Closed Won,2024-03-29,2024-05-23,New Business,bob@writely.ai
+deal_d455ef74c9,usr_00794,Jackson Harris - Business,474,Closed Won,2024-03-29,2024-05-26,New Business,alice@writely.ai
+deal_0983f58dcb,usr_00798,Aaron Reyes - Business,474,Closed Lost,2024-03-29,2024-03-31,New Business,carol@writely.ai
+deal_eec93b7c7f,usr_00799,Hannah Williams - Business,79,Closed Won,2024-03-29,2024-04-30,New Business,alice@writely.ai
+deal_fd4f311ee0,usr_00808,Mia Mitchell - Business,474,Closed Lost,2024-03-30,2024-04-16,New Business,bob@writely.ai
+deal_1f9464a51b,usr_00812,Barbara Patel - Business,948,Closed Lost,2024-03-30,2024-05-08,New Business,alice@writely.ai
+deal_326298c4f6,usr_00819,William Thompson - Business,948,Closed Won,2024-03-31,2024-04-02,New Business,alice@writely.ai
+deal_a1346526c5,usr_00831,James Nguyen - Business,474,Closed Won,2024-04-01,2024-05-15,New Business,alice@writely.ai
+deal_b6e94ebea1,usr_00852,Olivia Wilson - Business,79,Closed Won,2024-04-04,2024-05-31,New Business,carol@writely.ai
+deal_9071fb94b5,usr_00884,Adam Williams - Business,474,Closed Lost,2024-04-08,2024-06-07,New Business,bob@writely.ai
+deal_7746caca4a,usr_00888,Kevin Carter - Business,474,Closed Won,2024-04-08,2024-05-15,New Business,carol@writely.ai
+deal_1325206a65,usr_00897,Liam Baker - Business,474,Closed Won,2024-04-09,2024-05-08,New Business,alice@writely.ai
+deal_d4fdaee947,usr_00899,Jackson Taylor - Business,948,Closed Won,2024-04-10,2024-05-26,New Business,bob@writely.ai
+deal_8fd376ada5,usr_00912,Nathan Davis - Business,948,Closed Won,2024-04-11,2024-06-07,New Business,carol@writely.ai
+deal_21cb7ded4e,usr_00917,Lucas Jackson - Business,474,Closed Won,2024-04-11,2024-04-25,New Business,bob@writely.ai
+deal_0423c8886a,usr_00922,Charles Williams - Business,474,Closed Lost,2024-04-12,2024-04-13,New Business,carol@writely.ai
+deal_e2c56d7043,usr_00934,Charles Harris - Business,948,Closed Won,2024-04-13,2024-05-08,New Business,carol@writely.ai
+deal_b21b033a11,usr_00945,Eric Taylor - Business,79,Closed Won,2024-04-14,2024-05-10,New Business,bob@writely.ai
+deal_69ef962696,usr_00962,Eric Carter - Business,948,Closed Won,2024-04-16,2024-05-24,New Business,bob@writely.ai
+deal_f4126dbb20,usr_00967,Madison Smith - Business,79,Closed Won,2024-04-16,2024-06-08,New Business,bob@writely.ai
+deal_aee205e80a,usr_00969,Ryan Reyes - Business,948,Closed Lost,2024-04-16,2024-06-06,New Business,bob@writely.ai
+deal_abcc66a203,usr_00976,Michael Harris - Business,474,Closed Won,2024-04-17,2024-06-11,New Business,carol@writely.ai
+deal_2f59c80847,usr_00983,Justin Baker - Business,948,Closed Won,2024-04-18,2024-06-11,New Business,bob@writely.ai
+deal_65df392ac0,usr_00988,Nathan Johnson - Business,79,Closed Lost,2024-04-18,2024-05-18,New Business,bob@writely.ai
+deal_ddd71bc027,usr_01006,Linda Jones - Business,948,Closed Won,2024-04-20,2024-05-28,New Business,alice@writely.ai
+deal_2365be9e37,usr_01013,Jennifer Garcia - Business,79,Closed Won,2024-04-21,2024-05-18,New Business,alice@writely.ai
+deal_8f16196f94,usr_01050,Michael Mitchell - Business,79,Closed Won,2024-04-25,2024-06-17,New Business,carol@writely.ai
+deal_d2936b3880,usr_01052,Michael Scott - Business,79,Closed Lost,2024-04-25,2024-06-07,New Business,alice@writely.ai
+deal_b3cb8275f8,usr_01071,Eric Thompson - Business,79,Closed Lost,2024-04-27,2024-05-25,New Business,carol@writely.ai
+deal_15bf24fa5a,usr_01082,Ethan Johnson - Business,948,Closed Won,2024-04-28,2024-05-10,New Business,alice@writely.ai
+deal_1ca3c764e7,usr_01104,Olivia Lee - Business,948,Closed Won,2024-04-30,2024-05-01,New Business,bob@writely.ai
+deal_4c73298f31,usr_01110,David Allen - Business,948,Closed Won,2024-05-02,2024-06-24,New Business,alice@writely.ai
+deal_857c0ac6ab,usr_01111,Jessica Johnson - Business,474,Closed Won,2024-05-02,2024-07-01,New Business,bob@writely.ai
+deal_3128609607,usr_01113,Mason White - Business,474,Closed Won,2024-05-02,2024-06-09,New Business,carol@writely.ai
+deal_ea2eb24633,usr_01118,Sarah Martin - Business,474,Closed Won,2024-05-02,2024-05-10,New Business,alice@writely.ai
+deal_9453f0c658,usr_01124,Emma Johnson - Business,474,Closed Won,2024-05-03,2024-06-18,New Business,alice@writely.ai
+deal_903ae37694,usr_01138,Kevin Taylor - Business,79,Closed Won,2024-05-04,2024-06-09,New Business,carol@writely.ai
+deal_164d5ba4be,usr_01150,Olivia Carter - Business,474,Closed Won,2024-05-06,2024-06-03,New Business,bob@writely.ai
+deal_0807c2b3aa,usr_01168,Oliver Baker - Business,79,Closed Lost,2024-05-08,2024-06-14,New Business,carol@writely.ai
+deal_911ffdfb36,usr_01184,Ella Nelson - Business,948,Closed Won,2024-05-09,2024-05-27,New Business,alice@writely.ai
+deal_6bd3a78a74,usr_01194,Adam Wright - Business,474,Closed Won,2024-05-10,2024-06-26,New Business,carol@writely.ai
+deal_c235a12b19,usr_01203,James Harris - Business,948,Closed Won,2024-05-12,2024-06-15,New Business,alice@writely.ai
+deal_70f6a32cf6,usr_01206,Barbara Reyes - Business,79,Closed Won,2024-05-12,2024-06-17,New Business,carol@writely.ai
+deal_066475af19,usr_01228,Logan Thomas - Business,79,Closed Lost,2024-05-15,2024-06-29,New Business,alice@writely.ai
+deal_8c678fa165,usr_01232,Kevin Scott - Business,948,Closed Lost,2024-05-15,2024-05-23,New Business,bob@writely.ai
+deal_bee79f6226,usr_01241,Grace Brown - Business,79,Closed Won,2024-05-16,2024-06-25,New Business,alice@writely.ai
+deal_6227267d09,usr_01264,Aaron Harris - Business,474,Closed Won,2024-05-19,2024-06-02,New Business,alice@writely.ai
+deal_95e2dd543e,usr_01267,Charles Kim - Business,79,Closed Won,2024-05-19,2024-05-30,New Business,bob@writely.ai
+deal_8a0ab8bbf4,usr_01272,Isabella Miller - Business,948,Closed Won,2024-05-20,2024-05-21,New Business,alice@writely.ai
+deal_ec5e82c5a2,usr_01289,Liam Scott - Business,79,Closed Won,2024-05-23,2024-06-24,New Business,bob@writely.ai
+deal_dcfd6f97a7,usr_01293,Brandon Kumar - Business,79,Closed Won,2024-05-24,2024-06-09,New Business,bob@writely.ai
+deal_75cb86bf57,usr_01316,Aaron Moore - Business,79,Closed Lost,2024-05-26,2024-07-14,New Business,alice@writely.ai
+deal_1ce7c4824b,usr_01327,William Chen - Business,948,Closed Won,2024-05-27,2024-07-20,New Business,alice@writely.ai
+deal_db38016dfd,usr_01348,Adam Brown - Business,948,Closed Lost,2024-05-30,2024-07-13,New Business,carol@writely.ai
+deal_edb1533852,usr_01355,Charles Jackson - Business,948,Closed Lost,2024-06-01,2024-06-05,New Business,alice@writely.ai
+deal_243f4f6201,usr_01356,Elizabeth Moore - Business,474,Closed Won,2024-06-01,2024-07-28,New Business,carol@writely.ai
+deal_7e22189e9d,usr_01359,Noah Scott - Business,79,Closed Won,2024-06-02,2024-06-21,New Business,alice@writely.ai
+deal_dad04985f7,usr_01373,Abigail Wright - Business,79,Closed Won,2024-06-03,2024-07-29,New Business,bob@writely.ai
+deal_8f948b066a,usr_01374,Ethan Anderson - Business,79,Closed Lost,2024-06-03,2024-07-06,New Business,alice@writely.ai
+deal_a17520d9fa,usr_01379,Ethan Wilson - Business,79,Closed Lost,2024-06-04,2024-07-01,New Business,bob@writely.ai
+deal_c591ecba10,usr_01395,Tyler Reyes - Business,948,Closed Won,2024-06-06,2024-07-07,New Business,bob@writely.ai
+deal_b559ca5954,usr_01410,Emily King - Business,474,Closed Won,2024-06-08,2024-06-18,New Business,carol@writely.ai
+deal_8aab70c443,usr_01418,Elijah Scott - Business,79,Closed Won,2024-06-09,2024-07-17,New Business,carol@writely.ai
+deal_fc4b882efa,usr_01421,Oliver Young - Business,948,Closed Won,2024-06-09,2024-06-21,New Business,alice@writely.ai
+deal_32696ee1e9,usr_01427,Mason Nelson - Business,474,Closed Lost,2024-06-10,2024-06-28,New Business,alice@writely.ai
+deal_83f648df83,usr_01432,Lucas Jackson - Business,79,Closed Won,2024-06-11,2024-07-27,New Business,alice@writely.ai
+deal_f29e51463e,usr_01447,Karen Taylor - Business,948,Closed Won,2024-06-13,2024-08-07,New Business,alice@writely.ai
+deal_de3d8d14d1,usr_01452,Nathan Kumar - Business,474,Closed Won,2024-06-13,2024-07-15,New Business,alice@writely.ai
+deal_1329dcbe1a,usr_01455,Lucas Roberts - Business,948,Closed Won,2024-06-14,2024-07-01,New Business,bob@writely.ai
+deal_639737d3e9,usr_01463,Tyler Brown - Business,79,Closed Won,2024-06-15,2024-08-02,New Business,alice@writely.ai
+deal_ba5302aecd,usr_01469,Jessica Wright - Business,79,Closed Won,2024-06-16,2024-07-08,New Business,alice@writely.ai
+deal_965e1a7475,usr_01474,Justin Chen - Business,948,Closed Won,2024-06-16,2024-07-18,New Business,bob@writely.ai
+deal_138f0a18b8,usr_01476,Evelyn Anderson - Business,474,Closed Won,2024-06-16,2024-07-20,New Business,carol@writely.ai
+deal_f261ca9c3f,usr_01487,William Jones - Business,948,Closed Lost,2024-06-18,2024-06-29,New Business,alice@writely.ai
+deal_4f1b7d079c,usr_01495,Oliver Carter - Business,948,Closed Lost,2024-06-19,2024-07-30,New Business,carol@writely.ai
+deal_eec570fa1c,usr_01508,Joseph White - Business,79,Closed Won,2024-06-20,2024-08-19,New Business,bob@writely.ai
+deal_d6ab8cc5a6,usr_01519,William Wilson - Business,474,Closed Won,2024-06-21,2024-07-27,New Business,bob@writely.ai
+deal_303355ecc8,usr_01526,Robert Nelson - Business,474,Closed Won,2024-06-22,2024-07-04,New Business,bob@writely.ai
+deal_a190583025,usr_01532,Eric Allen - Business,474,Closed Won,2024-06-23,2024-06-24,New Business,alice@writely.ai
+deal_57812b768e,usr_01533,Charlotte Kim - Business,948,Closed Won,2024-06-23,2024-06-26,New Business,alice@writely.ai
+deal_969991e8b1,usr_01543,Nathan Scott - Business,79,Closed Won,2024-06-23,2024-07-11,New Business,bob@writely.ai
+deal_1a4842722d,usr_01560,Jessica Chen - Business,79,Closed Won,2024-06-25,2024-07-23,New Business,carol@writely.ai
+deal_4a68c151ea,usr_01577,Richard Thompson - Business,948,Closed Won,2024-06-27,2024-07-19,New Business,bob@writely.ai
+deal_0b6f428212,usr_01582,William Baker - Business,948,Closed Lost,2024-06-28,2024-07-08,New Business,alice@writely.ai
+deal_7e45614241,usr_01599,John Scott - Business,79,Closed Won,2024-06-30,2024-08-18,New Business,bob@writely.ai
+deal_470cf178ff,usr_01609,Nathan Jones - Business,948,Closed Won,2024-07-01,2024-07-04,New Business,alice@writely.ai
+deal_2618306724,usr_01637,Aiden King - Business,79,Closed Won,2024-07-04,2024-07-20,New Business,bob@writely.ai
+deal_6318898913,usr_01707,Elijah Jones - Business,79,Closed Lost,2024-07-11,2024-08-15,New Business,bob@writely.ai
+deal_dc2fe45dfd,usr_01710,Olivia Nelson - Business,79,Closed Won,2024-07-11,2024-07-13,New Business,alice@writely.ai
+deal_0bc2c07745,usr_01729,Barbara Green - Business,474,Closed Lost,2024-07-12,2024-09-04,New Business,carol@writely.ai
+deal_665dd78a44,usr_01733,Tyler Jackson - Business,474,Closed Lost,2024-07-13,2024-08-20,New Business,bob@writely.ai
+deal_82b9a84aef,usr_01737,Logan Moore - Business,79,Closed Won,2024-07-13,2024-07-31,New Business,carol@writely.ai
+deal_4d94335f7c,usr_01740,Ryan King - Business,474,Closed Lost,2024-07-14,2024-08-01,New Business,alice@writely.ai
+deal_1e422fb6c6,usr_01746,Brandon Adams - Business,948,Closed Won,2024-07-15,2024-08-07,New Business,carol@writely.ai
+deal_7b2e5670ef,usr_01749,Patricia Williams - Business,474,Closed Lost,2024-07-15,2024-09-11,New Business,bob@writely.ai
+deal_76de7cb173,usr_01759,Justin Kim - Business,474,Closed Lost,2024-07-17,2024-08-03,New Business,alice@writely.ai
+deal_1f87b19402,usr_01766,Michael Brown - Business,474,Closed Won,2024-07-18,2024-08-31,New Business,bob@writely.ai
+deal_dc38747554,usr_01767,Lily Green - Business,79,Closed Won,2024-07-18,2024-08-02,New Business,alice@writely.ai
+deal_3a05335603,usr_01779,Aiden Wang - Business,474,Closed Lost,2024-07-20,2024-08-06,New Business,alice@writely.ai
+deal_f7bbe2d41c,usr_01787,Michael King - Business,474,Closed Won,2024-07-21,2024-09-15,New Business,bob@writely.ai
+deal_bc4711d0d0,usr_01797,Olivia Johnson - Business,474,Closed Won,2024-07-22,2024-08-18,New Business,bob@writely.ai
+deal_1dd299f582,usr_01818,Emily Adams - Business,474,Closed Won,2024-07-24,2024-08-13,New Business,carol@writely.ai
+deal_d60fc9185c,usr_01823,Nathan Jones - Business,948,Closed Won,2024-07-24,2024-08-14,New Business,carol@writely.ai
+deal_d2948b264c,usr_01824,Hannah Nelson - Business,79,Closed Won,2024-07-24,2024-09-19,New Business,carol@writely.ai
+deal_12dff44edb,usr_01831,Sophia Wright - Business,474,Closed Lost,2024-07-25,2024-09-06,New Business,bob@writely.ai
+deal_e4a56b6b07,usr_01834,Emily Kumar - Business,79,Closed Lost,2024-07-26,2024-08-16,New Business,carol@writely.ai
+deal_fda7ed1495,usr_01835,Jennifer Thompson - Business,474,Closed Lost,2024-07-26,2024-08-10,New Business,alice@writely.ai
+deal_0973e391ba,usr_01840,Jackson Thomas - Business,79,Closed Won,2024-07-26,2024-08-01,New Business,bob@writely.ai
+deal_197888f9f4,usr_01841,Elijah Wright - Business,79,Closed Won,2024-07-26,2024-08-05,New Business,alice@writely.ai
+deal_799976cb57,usr_01845,Sarah Singh - Business,79,Closed Lost,2024-07-27,2024-08-11,New Business,carol@writely.ai
+deal_86cef64966,usr_01852,Ella Moore - Business,474,Closed Lost,2024-07-27,2024-09-05,New Business,bob@writely.ai
+deal_b47e39018a,usr_01853,Harper King - Business,948,Closed Won,2024-07-27,2024-08-30,New Business,bob@writely.ai
+deal_c368a219fe,usr_01859,Barbara Baker - Business,948,Closed Won,2024-07-28,2024-08-29,New Business,carol@writely.ai
+deal_45366cf613,usr_01862,Barbara Jones - Business,79,Closed Lost,2024-07-28,2024-09-16,New Business,alice@writely.ai
+deal_66b1654a83,usr_01863,Richard King - Business,948,Closed Won,2024-07-28,2024-08-21,New Business,alice@writely.ai
+deal_99f200aa1b,usr_01870,Patricia Harris - Business,474,Closed Won,2024-07-30,2024-08-16,New Business,alice@writely.ai
+deal_53d562384e,usr_01885,Jackson Nelson - Business,79,Closed Won,2024-07-31,2024-09-15,New Business,carol@writely.ai
+deal_3eff90c199,usr_01886,Robert Reyes - Business,948,Closed Won,2024-07-31,2024-08-14,New Business,alice@writely.ai
+deal_b56298962a,usr_01892,William Miller - Business,948,Closed Won,2024-08-01,2024-08-20,New Business,alice@writely.ai
+deal_3dd55f9311,usr_01893,Natalie Baker - Business,948,Closed Lost,2024-08-01,2024-09-26,New Business,alice@writely.ai
+deal_43ff32b52b,usr_01912,Linda Taylor - Business,948,Closed Won,2024-08-02,2024-08-31,New Business,carol@writely.ai
+deal_64cd92aa50,usr_01918,Nathan Martin - Business,474,Closed Won,2024-08-03,2024-09-03,New Business,alice@writely.ai
+deal_b42b43bfc8,usr_01921,Lily Garcia - Business,474,Closed Won,2024-08-04,2024-09-17,New Business,alice@writely.ai
+deal_2eb1a617cc,usr_01935,Harper Allen - Business,79,Closed Won,2024-08-05,2024-08-16,New Business,carol@writely.ai
+deal_9deda9fe67,usr_01960,Jennifer Moore - Business,474,Closed Won,2024-08-08,2024-09-20,New Business,bob@writely.ai
+deal_42ee0a7917,usr_01963,Ava Jackson - Business,474,Closed Won,2024-08-08,2024-08-22,New Business,alice@writely.ai
+deal_f21dbff686,usr_01983,Aaron Lee - Business,79,Closed Lost,2024-08-10,2024-08-17,New Business,bob@writely.ai
+deal_9f032a9eb6,usr_01991,Patricia Carter - Business,79,Closed Won,2024-08-11,2024-10-09,New Business,bob@writely.ai
+deal_a46f4adddc,usr_01995,Ava Nguyen - Business,79,Closed Won,2024-08-12,2024-09-05,New Business,alice@writely.ai
+deal_f56efda852,usr_01998,Michael Kim - Business,948,Closed Lost,2024-08-12,2024-09-08,New Business,alice@writely.ai
+deal_a603697932,usr_02023,Susan White - Business,474,Closed Won,2024-08-15,2024-09-18,New Business,alice@writely.ai
+deal_453afa77d9,usr_02028,Emma Miller - Business,79,Closed Won,2024-08-16,2024-10-02,New Business,bob@writely.ai
+deal_1593c1ddf1,usr_02045,Grace Wilson - Business,79,Closed Won,2024-08-17,2024-10-05,New Business,carol@writely.ai
+deal_72158cc68e,usr_02053,Brandon Miller - Business,79,Closed Won,2024-08-18,2024-09-25,New Business,carol@writely.ai
+deal_e40dadeb99,usr_02060,Noah Chen - Business,948,Closed Won,2024-08-19,2024-08-25,New Business,carol@writely.ai
+deal_d1e6c0937d,usr_02061,Joseph Nelson - Business,79,Closed Won,2024-08-19,2024-09-28,New Business,alice@writely.ai
+deal_fd697c4403,usr_02092,Susan Adams - Business,79,Closed Lost,2024-08-21,2024-09-22,New Business,carol@writely.ai
+deal_bea697444d,usr_02103,William Roberts - Business,79,Closed Won,2024-08-22,2024-09-07,New Business,alice@writely.ai
+deal_2abbe39bd4,usr_02112,Brian Johnson - Business,948,Closed Won,2024-08-23,2024-09-19,New Business,carol@writely.ai
+deal_4c01a39057,usr_02116,Eric Roberts - Business,79,Closed Won,2024-08-24,2024-10-22,New Business,bob@writely.ai
+deal_be2fda84d0,usr_02121,Barbara Adams - Business,474,Closed Won,2024-08-24,2024-09-15,New Business,alice@writely.ai
+deal_69f05b0c2e,usr_02130,Michael Taylor - Business,79,Closed Won,2024-08-25,2024-09-07,New Business,bob@writely.ai
+deal_4658c75e29,usr_02141,Sophia Mitchell - Business,79,Closed Won,2024-08-27,2024-10-12,New Business,bob@writely.ai
+deal_ec03b65c58,usr_02145,Justin Thompson - Business,474,Closed Won,2024-08-27,2024-09-05,New Business,alice@writely.ai
+deal_75d5570440,usr_02153,Harper Brown - Business,79,Closed Lost,2024-08-28,2024-10-21,New Business,carol@writely.ai
+deal_573368b5ca,usr_02177,Brandon Williams - Business,948,Closed Won,2024-08-30,2024-09-13,New Business,bob@writely.ai
+deal_957bff8e43,usr_02186,Abigail Roberts - Business,79,Closed Won,2024-08-31,2024-10-20,New Business,alice@writely.ai
+deal_e7f4b1c146,usr_02199,Robert Davis - Business,79,Closed Won,2024-09-01,2024-10-27,New Business,alice@writely.ai
+deal_9ac850937e,usr_02200,Jackson Wright - Business,474,Closed Lost,2024-09-01,2024-10-15,New Business,alice@writely.ai
+deal_60ea20a64f,usr_02205,Karen Garcia - Business,948,Closed Won,2024-09-02,2024-09-10,New Business,alice@writely.ai
+deal_43187cc553,usr_02219,Karen Allen - Business,948,Closed Won,2024-09-04,2024-09-23,New Business,carol@writely.ai
+deal_cf21c7dfc2,usr_02220,Ethan Nguyen - Business,79,Closed Won,2024-09-04,2024-10-08,New Business,bob@writely.ai
+deal_75e866d2f8,usr_02221,Natalie Harris - Business,474,Closed Lost,2024-09-04,2024-10-23,New Business,bob@writely.ai
+deal_cc2396482c,usr_02226,Ryan Allen - Business,79,Closed Won,2024-09-04,2024-10-05,New Business,carol@writely.ai
+deal_c81f7d43c1,usr_02229,Ethan Chen - Business,948,Closed Lost,2024-09-04,2024-09-06,New Business,alice@writely.ai
+deal_405ae2216d,usr_02242,Thomas Thompson - Business,948,Closed Lost,2024-09-06,2024-09-12,New Business,bob@writely.ai
+deal_b3b95e4046,usr_02252,Grace Williams - Business,79,Closed Won,2024-09-07,2024-10-09,New Business,carol@writely.ai
+deal_8ff33af8cb,usr_02254,Chloe Anderson - Business,948,Closed Lost,2024-09-07,2024-10-05,New Business,alice@writely.ai
+deal_2d9da6c0e5,usr_02272,Thomas Jackson - Business,948,Closed Won,2024-09-09,2024-09-19,New Business,carol@writely.ai
+deal_7a99970a2b,usr_02289,Michael Wright - Business,79,Closed Lost,2024-09-11,2024-10-14,New Business,alice@writely.ai
+deal_dff6a9ed31,usr_02296,Aiden Smith - Business,474,Closed Lost,2024-09-11,2024-10-12,New Business,bob@writely.ai
+deal_e804e7b30f,usr_02306,Jackson Kumar - Business,948,Closed Won,2024-09-13,2024-10-25,New Business,alice@writely.ai
+deal_6b18c2990d,usr_02311,Kevin Nguyen - Business,79,Closed Won,2024-09-13,2024-10-12,New Business,carol@writely.ai
+deal_99a45cc4d6,usr_02316,Elijah Singh - Business,948,Closed Won,2024-09-14,2024-11-06,New Business,carol@writely.ai
+deal_e7fa71192c,usr_02320,Logan Singh - Business,79,Closed Won,2024-09-14,2024-09-28,New Business,bob@writely.ai
+deal_8cff81b8a6,usr_02333,Charles Taylor - Business,474,Closed Won,2024-09-15,2024-10-17,New Business,alice@writely.ai
+deal_6d018dffb0,usr_02341,Chloe Anderson - Business,948,Closed Won,2024-09-16,2024-10-14,New Business,alice@writely.ai
+deal_0976beb8c9,usr_02350,Robert Mitchell - Business,948,Closed Won,2024-09-17,2024-11-13,New Business,bob@writely.ai
+deal_97a7a67d1e,usr_02357,Natalie Baker - Business,948,Closed Won,2024-09-18,2024-10-06,New Business,alice@writely.ai
+deal_023adbd821,usr_02358,Mason Brown - Business,948,Closed Won,2024-09-18,2024-10-18,New Business,alice@writely.ai
+deal_34e49d64f2,usr_02370,Emma Young - Business,948,Closed Lost,2024-09-19,2024-11-01,New Business,alice@writely.ai
+deal_c9b14dc0b9,usr_02383,Victoria Wang - Business,474,Closed Won,2024-09-21,2024-10-16,New Business,bob@writely.ai
+deal_5ba8dd28b2,usr_02388,Michael Wilson - Business,948,Closed Won,2024-09-21,2024-09-27,New Business,alice@writely.ai
+deal_9fa69d42c2,usr_02408,Adam Lee - Business,474,Closed Won,2024-09-24,2024-10-08,New Business,carol@writely.ai
+deal_c1832c9922,usr_02456,Adam Kim - Business,474,Closed Won,2024-09-29,2024-10-22,New Business,alice@writely.ai
+deal_e704a1c019,usr_02463,Richard Jones - Business,474,Closed Lost,2024-09-30,2024-11-07,New Business,carol@writely.ai
+deal_9d63b38be6,usr_02488,Emily Nguyen - Business,474,Closed Won,2024-10-04,2024-10-20,New Business,carol@writely.ai
+deal_da6c537f81,usr_02506,Thomas Martin - Business,79,Closed Lost,2024-10-06,2024-11-28,New Business,carol@writely.ai
+deal_86b3a1e149,usr_02510,Harper Carter - Business,474,Closed Won,2024-10-06,2024-11-10,New Business,carol@writely.ai
+deal_774b4478be,usr_02512,Olivia Scott - Business,948,Closed Lost,2024-10-06,2024-10-11,New Business,alice@writely.ai
+deal_6caa9ae1c8,usr_02544,Robert Kim - Business,948,Closed Won,2024-10-10,2024-12-09,New Business,carol@writely.ai
+deal_0ed7716a8a,usr_02551,Kevin Taylor - Business,948,Closed Won,2024-10-11,2024-12-02,New Business,alice@writely.ai
+deal_5e17690d53,usr_02567,Nathan Martin - Business,474,Closed Won,2024-10-12,2024-11-08,New Business,alice@writely.ai
+deal_99fe6a23d0,usr_02579,Kevin King - Business,948,Closed Lost,2024-10-13,2024-11-04,New Business,alice@writely.ai
+deal_daa9366ff8,usr_02596,Mary Kumar - Business,948,Closed Won,2024-10-15,2024-11-23,New Business,carol@writely.ai
+deal_1115c251e2,usr_02599,Nathan Thompson - Business,79,Closed Won,2024-10-16,2024-12-11,New Business,alice@writely.ai
+deal_9ec7bd69a4,usr_02604,David Flores - Business,948,Closed Won,2024-10-16,2024-10-20,New Business,alice@writely.ai
+deal_d512fbb19e,usr_02613,Thomas Jones - Business,948,Closed Won,2024-10-17,2024-11-15,New Business,bob@writely.ai
+deal_fbb6d14896,usr_02619,Karen Jones - Business,474,Closed Won,2024-10-17,2024-12-07,New Business,carol@writely.ai
+deal_5f82ce31a2,usr_02629,Justin Scott - Business,79,Closed Lost,2024-10-18,2024-12-04,New Business,bob@writely.ai
+deal_9fa80858bf,usr_02634,Nathan Wright - Business,948,Closed Lost,2024-10-19,2024-10-30,New Business,carol@writely.ai
+deal_5a2468b46a,usr_02678,Tyler Brown - Business,474,Closed Won,2024-10-23,2024-11-03,New Business,bob@writely.ai
+deal_b3e7057c64,usr_02681,William Wang - Business,79,Closed Lost,2024-10-24,2024-12-16,New Business,bob@writely.ai
+deal_f48c65abcf,usr_02695,Olivia Miller - Business,948,Closed Won,2024-10-24,2024-11-25,New Business,bob@writely.ai
+deal_f8edcf8a91,usr_02701,Aiden Jackson - Business,474,Closed Won,2024-10-25,2024-12-03,New Business,bob@writely.ai
+deal_c5ee3857a3,usr_02716,Jackson Johnson - Business,948,Closed Won,2024-10-27,2024-12-24,New Business,alice@writely.ai
+deal_5b1197f67e,usr_02718,Amelia Harris - Business,474,Closed Won,2024-10-27,2024-11-21,New Business,carol@writely.ai
+deal_e35753c0b6,usr_02720,Aaron Davis - Business,474,Closed Lost,2024-10-27,2024-12-26,New Business,alice@writely.ai
+deal_74acc71d37,usr_02722,Charlotte King - Business,474,Closed Lost,2024-10-27,2024-12-20,New Business,alice@writely.ai
+deal_c1ffefd57d,usr_02725,Jackson King - Business,474,Closed Won,2024-10-28,2024-11-14,New Business,bob@writely.ai
+deal_708a399acc,usr_02729,Thomas Wang - Business,948,Closed Lost,2024-10-28,2024-12-15,New Business,bob@writely.ai
+deal_10e0e9b4e4,usr_02737,Grace Thomas - Business,474,Closed Won,2024-10-29,2024-12-27,New Business,alice@writely.ai
+deal_4993bf832d,usr_02785,Amelia Adams - Business,474,Closed Won,2024-11-04,2024-12-06,New Business,carol@writely.ai
+deal_aae6b92623,usr_02788,Nathan Thomas - Business,474,Closed Won,2024-11-05,2024-11-06,New Business,bob@writely.ai
+deal_43417694fa,usr_02797,Joseph Flores - Business,474,Closed Lost,2024-11-05,2024-11-16,New Business,carol@writely.ai
+deal_21eb7757bb,usr_02803,Hannah White - Business,948,Closed Won,2024-11-06,2024-12-25,New Business,bob@writely.ai
+deal_f9e91bc682,usr_02818,John Flores - Business,474,Closed Lost,2024-11-08,2024-12-17,New Business,alice@writely.ai
+deal_062e0863c3,usr_02819,John Wang - Business,474,Closed Won,2024-11-08,2024-12-02,New Business,carol@writely.ai
+deal_a0aacf8b41,usr_02827,Karen Chen - Business,948,Closed Won,2024-11-09,2024-11-13,New Business,bob@writely.ai
+deal_6057e921da,usr_02866,Eric Roberts - Business,79,Closed Won,2024-11-13,2024-11-19,New Business,bob@writely.ai
+deal_537ff1c1db,usr_02873,Elizabeth Wang - Business,948,Closed Won,2024-11-14,2024-11-17,New Business,bob@writely.ai
+deal_eff0262d35,usr_02906,Michael Miller - Business,79,Closed Lost,2024-11-17,2025-01-11,New Business,carol@writely.ai
+deal_b94733a0ee,usr_02925,William Kumar - Business,948,Closed Lost,2024-11-19,2024-12-21,New Business,alice@writely.ai
+deal_40e252d3ff,usr_02943,Michael Lee - Business,948,Closed Won,2024-11-21,2024-11-28,New Business,bob@writely.ai
+deal_9d9ff3775a,usr_02949,James Garcia - Business,948,Closed Lost,2024-11-21,2024-12-16,New Business,carol@writely.ai
+deal_a1b678c8da,usr_02951,Hannah Thompson - Business,948,Closed Won,2024-11-21,2024-12-30,New Business,alice@writely.ai
+deal_c989456a5a,usr_02971,Jackson Taylor - Business,79,Closed Lost,2024-11-24,2025-01-13,New Business,carol@writely.ai
+deal_ce6584ff36,usr_02974,Amelia Johnson - Business,948,Closed Won,2024-11-24,2024-12-15,New Business,bob@writely.ai
+deal_8f24b5712c,usr_02977,Elizabeth Martin - Business,948,Closed Won,2024-11-24,2024-11-25,New Business,carol@writely.ai
+deal_ab3cf7609a,usr_02999,Elijah Baker - Business,79,Closed Won,2024-11-27,2025-01-14,New Business,bob@writely.ai
+deal_63f99f579d,usr_03004,Aaron Smith - Business,948,Closed Lost,2024-11-28,2025-01-07,New Business,carol@writely.ai
+deal_27e204b455,usr_03040,Thomas Taylor - Business,79,Closed Won,2024-12-01,2025-01-04,New Business,alice@writely.ai
+deal_f4306a5d17,usr_03041,Logan White - Business,948,Closed Lost,2024-12-02,2025-01-05,New Business,bob@writely.ai
+deal_2db34cc572,usr_03053,David Thompson - Business,474,Closed Won,2024-12-03,2025-01-06,New Business,bob@writely.ai
+deal_1d9d80c84b,usr_03063,Lucas Thompson - Business,948,Closed Won,2024-12-04,2025-01-06,New Business,bob@writely.ai
+deal_a0561a6e53,usr_03065,Mason Kumar - Business,79,Closed Won,2024-12-05,2024-12-22,New Business,carol@writely.ai
+deal_8f33a307e0,usr_03087,James Kim - Business,79,Closed Won,2024-12-07,2025-01-05,New Business,bob@writely.ai
+deal_2943907aaa,usr_03094,Jessica Thompson - Business,79,Closed Won,2024-12-07,2025-01-13,New Business,bob@writely.ai
+deal_d55b8738f9,usr_03096,Isabella Kumar - Business,79,Closed Won,2024-12-08,2024-12-25,New Business,bob@writely.ai
+deal_3174aa04db,usr_03102,Ava Thomas - Business,79,Closed Won,2024-12-09,2025-02-07,New Business,carol@writely.ai
+deal_c24f897e9b,usr_03113,Chloe Young - Business,474,Closed Lost,2024-12-09,2024-12-13,New Business,alice@writely.ai
+deal_b75c99e8b2,usr_03128,Brandon Jones - Business,474,Closed Won,2024-12-11,2025-01-05,New Business,bob@writely.ai
+deal_bd4f493bc9,usr_03133,Harper Thompson - Business,79,Closed Won,2024-12-12,2025-01-07,New Business,bob@writely.ai
+deal_5c442df068,usr_03138,Jennifer Adams - Business,474,Closed Won,2024-12-12,2025-02-07,New Business,alice@writely.ai
+deal_0a41b13bdc,usr_03145,Kevin Allen - Business,474,Closed Won,2024-12-12,2025-02-02,New Business,carol@writely.ai
+deal_64ed6c974e,usr_03148,Patricia Roberts - Business,474,Closed Won,2024-12-14,2025-02-08,New Business,bob@writely.ai
+deal_adee0b0423,usr_03154,Justin Singh - Business,474,Closed Won,2024-12-14,2025-02-12,New Business,alice@writely.ai
+deal_4c2a7ad0aa,usr_03161,Mason Adams - Business,948,Closed Lost,2024-12-15,2024-12-19,New Business,bob@writely.ai
+deal_9c3e9c95b9,usr_03184,Oliver Thomas - Business,474,Closed Won,2024-12-17,2025-01-20,New Business,bob@writely.ai
+deal_b6d9125da1,usr_03188,Elijah Davis - Business,79,Closed Won,2024-12-17,2025-01-20,New Business,bob@writely.ai
+deal_afb55dfb4b,usr_03203,Jackson Nelson - Business,79,Closed Won,2024-12-18,2025-01-11,New Business,alice@writely.ai
+deal_97d491e0e7,usr_03249,Evelyn Wang - Business,948,Closed Lost,2024-12-22,2025-02-04,New Business,bob@writely.ai
+deal_19c492dc0c,usr_03251,Eric Williams - Business,79,Closed Won,2024-12-23,2025-01-19,New Business,carol@writely.ai
+deal_c6d12e9626,usr_03252,Kevin Moore - Business,79,Closed Won,2024-12-23,2025-02-03,New Business,alice@writely.ai
+deal_7268531391,usr_03258,John Singh - Business,948,Closed Won,2024-12-24,2025-01-23,New Business,bob@writely.ai
+deal_6ff30a1094,usr_03282,Aaron Young - Business,948,Closed Won,2024-12-26,2025-02-22,New Business,carol@writely.ai
+deal_484eeaa0fa,usr_03291,Nathan Taylor - Business,79,Closed Lost,2024-12-27,2025-01-06,New Business,bob@writely.ai
+deal_4d1dd3c2d3,usr_03328,Kevin Carter - Business,474,Closed Won,2025-01-01,2025-02-26,New Business,alice@writely.ai
+deal_d57e033155,usr_03337,Grace White - Business,79,Closed Won,2025-01-02,2025-01-23,New Business,bob@writely.ai
+deal_69ce47042c,usr_03345,William Wilson - Business,474,Closed Won,2025-01-02,2025-01-25,New Business,alice@writely.ai
+deal_1890c0cc27,usr_03387,James Baker - Business,79,Closed Won,2025-01-07,2025-03-01,New Business,carol@writely.ai
+deal_60b3d4267e,usr_03393,Charlotte Nguyen - Business,948,Closed Won,2025-01-07,2025-01-23,New Business,carol@writely.ai
+deal_6c06637cdc,usr_03400,Oliver Jones - Business,474,Closed Won,2025-01-09,2025-02-19,New Business,bob@writely.ai
+deal_d359105e62,usr_03402,Ethan Lee - Business,948,Closed Won,2025-01-09,2025-03-02,New Business,carol@writely.ai
+deal_211613e257,usr_03412,Aaron Carter - Business,79,Closed Won,2025-01-10,2025-02-10,New Business,carol@writely.ai
+deal_29a83beb14,usr_03428,Liam Patel - Business,948,Closed Won,2025-01-12,2025-01-31,New Business,alice@writely.ai
+deal_daf509dea3,usr_03435,Sophia White - Business,79,Closed Won,2025-01-13,2025-02-10,New Business,alice@writely.ai
+deal_84c2d8b23c,usr_03455,Victoria Adams - Business,79,Closed Won,2025-01-15,2025-02-09,New Business,alice@writely.ai
+deal_7ddacbca3b,usr_03459,Harper Anderson - Business,79,Closed Won,2025-01-15,2025-01-25,New Business,carol@writely.ai
+deal_6b645090e0,usr_03461,Richard Lee - Business,948,Closed Won,2025-01-15,2025-03-14,New Business,alice@writely.ai
+deal_368e87219e,usr_03462,Robert White - Business,948,Closed Won,2025-01-15,2025-01-21,New Business,alice@writely.ai
+deal_ece75f6218,usr_03465,Thomas Green - Business,79,Closed Won,2025-01-16,2025-03-06,New Business,bob@writely.ai
+deal_933c75a319,usr_03480,Richard Brown - Business,948,Closed Won,2025-01-18,2025-01-20,New Business,carol@writely.ai
+deal_d393a5e2f2,usr_03483,Lucas Williams - Business,474,Closed Won,2025-01-18,2025-02-04,New Business,carol@writely.ai
+deal_4fd1cbaa5b,usr_03484,Harper Kim - Business,474,Closed Won,2025-01-18,2025-01-22,New Business,carol@writely.ai
+deal_5bf1764343,usr_03494,Sophia Carter - Business,79,Closed Won,2025-01-19,2025-02-03,New Business,alice@writely.ai
+deal_c8fb4071c3,usr_03496,Oliver Scott - Business,948,Closed Lost,2025-01-19,2025-02-15,New Business,bob@writely.ai
+deal_311b229537,usr_03497,Abigail Patel - Business,474,Closed Won,2025-01-19,2025-02-11,New Business,bob@writely.ai
+deal_ca082b5c02,usr_03504,Mason King - Business,948,Closed Lost,2025-01-20,2025-02-16,New Business,alice@writely.ai
+deal_f26c4973f9,usr_03509,Sarah White - Business,79,Closed Lost,2025-01-21,2025-01-23,New Business,carol@writely.ai
+deal_adc4a2d935,usr_03517,Adam Patel - Business,474,Closed Won,2025-01-22,2025-03-22,New Business,bob@writely.ai
+deal_641d01eb55,usr_03518,Eric Moore - Business,79,Closed Won,2025-01-22,2025-02-10,New Business,carol@writely.ai
+deal_67988a13e8,usr_03531,Kevin White - Business,79,Closed Won,2025-01-23,2025-02-22,New Business,alice@writely.ai
+deal_acc783ef35,usr_03551,Elizabeth Martin - Business,79,Closed Won,2025-01-25,2025-02-03,New Business,carol@writely.ai
+deal_900a044cc0,usr_03567,Thomas Miller - Business,79,Closed Won,2025-01-27,2025-03-19,New Business,alice@writely.ai
+deal_62b0dd9a64,usr_03594,Mason Garcia - Business,948,Closed Won,2025-01-30,2025-03-06,New Business,alice@writely.ai
+deal_a990fb9c58,usr_03612,Oliver Thomas - Business,948,Closed Lost,2025-02-01,2025-03-07,New Business,bob@writely.ai
+deal_706b439eb9,usr_03613,Nathan Smith - Business,948,Closed Won,2025-02-01,2025-02-04,New Business,alice@writely.ai
+deal_f1b3089766,usr_03616,Mason Miller - Business,948,Closed Won,2025-02-02,2025-02-09,New Business,alice@writely.ai
+deal_36e4a2dd8a,usr_03617,Richard Green - Business,948,Closed Lost,2025-02-02,2025-02-11,New Business,carol@writely.ai
+deal_f8f921f22a,usr_03621,Charlotte Green - Business,948,Closed Won,2025-02-02,2025-02-28,New Business,carol@writely.ai
+deal_a71221f3fc,usr_03671,Aiden Green - Business,79,Closed Won,2025-02-09,2025-02-12,New Business,alice@writely.ai
+deal_67e6f552cd,usr_03697,Ella Baker - Business,948,Closed Lost,2025-02-12,2025-02-20,New Business,carol@writely.ai
+deal_5060bcc79d,usr_03701,Aaron Patel - Business,474,Closed Won,2025-02-12,2025-04-12,New Business,carol@writely.ai
+deal_cacf9f63b6,usr_03736,Eric Smith - Business,79,Closed Lost,2025-02-17,2025-03-02,New Business,carol@writely.ai
+deal_75ff1a3704,usr_03755,Ryan Adams - Business,474,Closed Won,2025-02-20,2025-02-28,New Business,bob@writely.ai
+deal_2996d6aae3,usr_03775,Grace Young - Business,474,Closed Won,2025-02-21,2025-03-21,New Business,alice@writely.ai
+deal_b42fcaba71,usr_03777,Lily Nelson - Business,948,Closed Lost,2025-02-21,2025-02-24,New Business,bob@writely.ai
+deal_b59e2ca814,usr_03804,Jennifer Patel - Business,948,Closed Won,2025-02-24,2025-04-05,New Business,bob@writely.ai
+deal_2a22cd69cd,usr_03822,Oliver Johnson - Business,79,Closed Lost,2025-02-26,2025-03-13,New Business,alice@writely.ai
+deal_6eb2ec3610,usr_03835,Justin Baker - Business,948,Closed Won,2025-02-28,2025-04-17,New Business,carol@writely.ai
+deal_616c42325d,usr_03839,Isabella Roberts - Business,948,Closed Won,2025-02-28,2025-03-25,New Business,carol@writely.ai
+deal_12bfdee929,usr_03847,Harper Garcia - Business,79,Closed Won,2025-03-01,2025-04-30,New Business,bob@writely.ai
+deal_a92682a8a3,usr_03851,Mason Martin - Business,948,Closed Won,2025-03-01,2025-03-09,New Business,alice@writely.ai
+deal_9d4c58ddff,usr_03871,Joseph Adams - Business,474,Closed Lost,2025-03-03,2025-03-08,New Business,alice@writely.ai
+deal_6939dec715,usr_03875,William Singh - Business,474,Closed Lost,2025-03-04,2025-04-29,New Business,bob@writely.ai
+deal_9d2847e83e,usr_03893,Jessica Patel - Business,79,Closed Won,2025-03-05,2025-04-29,New Business,bob@writely.ai
+deal_09c0863a66,usr_03900,Amelia Adams - Business,948,Closed Won,2025-03-06,2025-03-27,New Business,carol@writely.ai
+deal_aa570af2a7,usr_03902,Michael King - Business,948,Closed Lost,2025-03-06,2025-03-24,New Business,carol@writely.ai
+deal_f16711a5df,usr_03910,Joseph Young - Business,79,Closed Lost,2025-03-07,2025-03-13,New Business,alice@writely.ai
+deal_f8f94b1314,usr_03930,David Singh - Business,474,Closed Won,2025-03-09,2025-05-07,New Business,carol@writely.ai
+deal_e80668f0a4,usr_03944,Elijah Nguyen - Business,79,Closed Won,2025-03-11,2025-04-14,New Business,bob@writely.ai
+deal_6ee7efca63,usr_03948,Lucas Scott - Business,474,Closed Won,2025-03-11,2025-04-03,New Business,alice@writely.ai
+deal_b2e67d71ba,usr_03988,Robert Garcia - Business,948,Closed Won,2025-03-15,2025-05-11,New Business,bob@writely.ai
+deal_6489f413c3,usr_03998,Adam Patel - Business,474,Closed Lost,2025-03-16,2025-04-27,New Business,alice@writely.ai
+deal_d2562b132e,usr_04000,Richard Garcia - Business,948,Closed Lost,2025-03-16,2025-04-01,New Business,alice@writely.ai
+deal_e9e60de83a,usr_04001,Logan Martin - Business,79,Closed Won,2025-03-16,2025-03-24,New Business,bob@writely.ai
+deal_b73dc63970,usr_04029,Karen Garcia - Business,474,Closed Won,2025-03-20,2025-04-08,New Business,alice@writely.ai
+deal_cf3c35aab2,usr_04043,Aiden Johnson - Business,948,Closed Won,2025-03-20,2025-05-14,New Business,alice@writely.ai
+deal_73ddf78551,usr_04049,Charlotte Singh - Business,474,Closed Won,2025-03-21,2025-03-22,New Business,alice@writely.ai
+deal_49e6669c01,usr_04056,Charles Jones - Business,79,Closed Won,2025-03-22,2025-05-06,New Business,alice@writely.ai
+deal_0cdd846923,usr_04061,Adam Chen - Business,79,Closed Won,2025-03-23,2025-03-24,New Business,bob@writely.ai
+deal_66828473df,usr_04088,Elijah Carter - Business,79,Closed Won,2025-03-25,2025-04-23,New Business,bob@writely.ai
+deal_d9b48c9bb0,usr_04099,Robert Taylor - Business,948,Closed Won,2025-03-27,2025-04-14,New Business,alice@writely.ai
+deal_06f2446337,usr_04111,Noah Green - Business,79,Closed Lost,2025-03-28,2025-04-30,New Business,alice@writely.ai
+deal_35f32dcce1,usr_04118,Mason Anderson - Business,79,Closed Lost,2025-03-29,2025-04-30,New Business,alice@writely.ai
+deal_a505d1fe0e,usr_04119,James Allen - Business,474,Closed Lost,2025-03-29,2025-04-01,New Business,carol@writely.ai
+deal_29f9ae499b,usr_04126,Harper Moore - Business,79,Closed Won,2025-03-30,2025-04-27,New Business,carol@writely.ai
+deal_8c16666ab3,usr_04130,Tyler Scott - Business,474,Closed Won,2025-03-31,2025-05-29,New Business,bob@writely.ai
+deal_b9f8bc595a,usr_04143,Brandon Baker - Business,948,Closed Lost,2025-04-01,2025-05-20,New Business,carol@writely.ai
+deal_5baa0ea9a7,usr_04157,Ethan Taylor - Business,948,Closed Won,2025-04-02,2025-04-27,New Business,carol@writely.ai
+deal_821047b9ba,usr_04161,John Harris - Business,79,Closed Lost,2025-04-02,2025-05-11,New Business,bob@writely.ai
+deal_4388402409,usr_04165,James Harris - Business,948,Closed Won,2025-04-03,2025-05-28,New Business,carol@writely.ai
+deal_3861e4c1e7,usr_04189,Sarah Nguyen - Business,79,Closed Won,2025-04-06,2025-04-09,New Business,bob@writely.ai
+deal_8f5048409f,usr_04191,Harper Allen - Business,474,Closed Lost,2025-04-06,2025-04-14,New Business,carol@writely.ai
+deal_58f14e11a4,usr_04193,John Roberts - Business,474,Closed Lost,2025-04-06,2025-04-27,New Business,carol@writely.ai
+deal_97c8142aa9,usr_04198,Kevin Johnson - Business,79,Closed Lost,2025-04-07,2025-05-10,New Business,bob@writely.ai
+deal_e4bf5a2bb5,usr_04201,Natalie Nelson - Business,474,Closed Won,2025-04-07,2025-06-05,New Business,bob@writely.ai
+deal_b61d49e04d,usr_04205,Michael Wilson - Business,948,Closed Lost,2025-04-07,2025-05-23,New Business,carol@writely.ai
+deal_a49b36a76c,usr_04211,Liam Mitchell - Business,474,Closed Lost,2025-04-08,2025-05-31,New Business,alice@writely.ai
+deal_7b27d96fc9,usr_04212,Robert Wilson - Business,948,Closed Won,2025-04-08,2025-05-01,New Business,bob@writely.ai
+deal_81f93d0e99,usr_04218,Aiden Carter - Business,948,Closed Lost,2025-04-08,2025-05-11,New Business,carol@writely.ai
+deal_738df8548a,usr_04226,Jessica Jackson - Business,474,Closed Won,2025-04-09,2025-06-02,New Business,alice@writely.ai
+deal_c1757e8d82,usr_04233,Kevin Kim - Business,948,Closed Lost,2025-04-10,2025-04-20,New Business,bob@writely.ai
+deal_05fe33f182,usr_04246,Emma Wang - Business,474,Closed Won,2025-04-12,2025-06-01,New Business,bob@writely.ai
+deal_1bc922576a,usr_04282,Jessica Singh - Business,79,Closed Lost,2025-04-16,2025-06-04,New Business,bob@writely.ai
+deal_47b8c41d91,usr_04295,Liam Kumar - Business,474,Closed Won,2025-04-18,2025-04-27,New Business,carol@writely.ai
+deal_c052b193c3,usr_04296,Brandon Harris - Business,474,Closed Lost,2025-04-18,2025-06-07,New Business,carol@writely.ai
+deal_bc861f50ad,usr_04299,James Smith - Business,474,Closed Won,2025-04-18,2025-05-08,New Business,carol@writely.ai
+deal_6ccd673de6,usr_04326,Olivia Young - Business,79,Closed Won,2025-04-21,2025-04-25,New Business,alice@writely.ai
+deal_2a1db0809b,usr_04338,Emma Taylor - Business,79,Closed Won,2025-04-22,2025-06-08,New Business,alice@writely.ai
+deal_63351a588b,usr_04346,Oliver Lee - Business,474,Closed Won,2025-04-23,2025-06-17,New Business,bob@writely.ai
+deal_3c5e87ed66,usr_04387,Mia Johnson - Business,79,Closed Lost,2025-04-28,2025-05-19,New Business,bob@writely.ai
+deal_41414f15a6,usr_04391,Aaron Taylor - Business,948,Closed Lost,2025-04-29,2025-05-22,New Business,carol@writely.ai
+deal_82db56e41a,usr_04392,Brandon Lee - Business,948,Closed Won,2025-04-29,2025-06-04,New Business,alice@writely.ai
+deal_691869b0d3,usr_04421,Aaron Miller - Business,474,Closed Won,2025-05-02,2025-05-18,New Business,carol@writely.ai
+deal_a78c79f42c,usr_04425,Nathan Davis - Business,474,Closed Won,2025-05-03,2025-05-19,New Business,bob@writely.ai
+deal_cebfc0e904,usr_04447,Robert Flores - Business,948,Closed Lost,2025-05-06,2025-06-08,New Business,carol@writely.ai
+deal_a5f1ca0d59,usr_04466,James King - Business,474,Closed Lost,2025-05-08,2025-06-16,New Business,bob@writely.ai
+deal_a8a7eb16ad,usr_04467,Brian Nelson - Business,474,Closed Won,2025-05-08,2025-06-27,New Business,bob@writely.ai
+deal_0116b59a3e,usr_04468,Brian Wright - Business,948,Closed Lost,2025-05-08,2025-06-16,New Business,carol@writely.ai
+deal_1f46e52cee,usr_04475,Jessica Garcia - Business,948,Closed Lost,2025-05-09,2025-05-10,New Business,carol@writely.ai
+deal_18558b3e2b,usr_04477,Justin Nguyen - Business,948,Closed Won,2025-05-09,2025-06-18,New Business,alice@writely.ai
+deal_c1a20edd86,usr_04499,Ethan Nguyen - Business,474,Closed Lost,2025-05-11,2025-05-26,New Business,carol@writely.ai
+deal_d44ee0e766,usr_04504,Noah Singh - Business,79,Closed Won,2025-05-11,2025-06-06,New Business,alice@writely.ai
+deal_0d470dbb05,usr_04523,Abigail Smith - Business,474,Closed Won,2025-05-13,2025-06-06,New Business,alice@writely.ai
+deal_83bd024e1b,usr_04529,Justin Wang - Business,948,Closed Lost,2025-05-14,2025-05-21,New Business,alice@writely.ai
+deal_a3ee1ea67a,usr_04530,Lucas Nelson - Business,79,Closed Won,2025-05-14,2025-05-20,New Business,alice@writely.ai
+deal_6a817cd6c3,usr_04532,Eric Martin - Business,948,Closed Won,2025-05-14,2025-06-24,New Business,alice@writely.ai
+deal_095b432e66,usr_04550,Lily Thompson - Business,79,Closed Won,2025-05-16,2025-05-21,New Business,bob@writely.ai
+deal_b56b27a4b4,usr_04552,Tyler Wang - Business,948,Closed Won,2025-05-16,2025-05-27,New Business,bob@writely.ai
+deal_1478c43465,usr_04585,Abigail Williams - Business,79,Closed Won,2025-05-19,2025-06-23,New Business,bob@writely.ai
+deal_e69c880582,usr_04613,Noah Nelson - Business,948,Closed Won,2025-05-22,2025-06-13,New Business,bob@writely.ai
+deal_c79c4dbb14,usr_04615,James King - Business,474,Closed Lost,2025-05-22,2025-06-04,New Business,carol@writely.ai
+deal_c06b79c1c3,usr_04618,Hannah Anderson - Business,474,Closed Won,2025-05-22,2025-06-15,New Business,carol@writely.ai
+deal_7e8fb96d42,usr_04637,Aiden Harris - Business,474,Closed Won,2025-05-24,2025-06-02,New Business,alice@writely.ai
+deal_1d36d2a1bf,usr_04657,Isabella Lee - Business,79,Closed Won,2025-05-26,2025-05-29,New Business,carol@writely.ai
+deal_3478889939,usr_04677,Liam Nguyen - Business,79,Closed Won,2025-05-28,2025-06-03,New Business,carol@writely.ai
+deal_ae7e8ea1ce,usr_04691,Logan Taylor - Business,948,Closed Won,2025-05-29,2025-06-15,New Business,alice@writely.ai
+deal_f981725d6c,usr_04726,Aaron Johnson - Business,948,Closed Won,2025-06-02,2025-06-07,New Business,alice@writely.ai
+deal_d6e036411e,usr_04750,Jennifer Mitchell - Business,474,Closed Won,2025-06-04,2025-06-29,New Business,bob@writely.ai
+deal_4d6ca3712a,usr_04758,Barbara Jones - Business,948,Closed Won,2025-06-05,2025-06-18,New Business,bob@writely.ai
+deal_7d7a32daa0,usr_04761,Ryan Garcia - Business,948,Closed Won,2025-06-06,2025-06-27,New Business,carol@writely.ai
+deal_98e4f754e8,usr_04763,Susan Chen - Business,79,Closed Lost,2025-06-06,2025-06-07,New Business,alice@writely.ai
+deal_362f026e6e,usr_04764,Lucas Patel - Business,948,Closed Lost,2025-06-06,2025-06-19,New Business,bob@writely.ai
+deal_c70eda8e61,usr_04769,Madison Johnson - Business,948,Closed Won,2025-06-06,2025-06-21,New Business,carol@writely.ai
+deal_cbc7523ec8,usr_04778,Aaron Thomas - Business,474,Closed Won,2025-06-07,2025-06-28,New Business,alice@writely.ai
+deal_0554edb54e,usr_04784,David Adams - Business,474,Closed Lost,2025-06-08,2025-06-11,New Business,bob@writely.ai
+deal_68ff1a3e5c,usr_04797,Thomas Jackson - Business,79,Closed Lost,2025-06-09,2025-06-17,New Business,bob@writely.ai
+deal_2fc8406fd4,usr_04800,Ryan Smith - Business,474,Closed Won,2025-06-10,2025-06-13,New Business,alice@writely.ai
+deal_811527e301,usr_04809,Aaron Chen - Business,474,Closed Lost,2025-06-10,2025-06-24,New Business,alice@writely.ai
+deal_8313d99877,usr_04815,Amelia Carter - Business,474,Closed Won,2025-06-11,2025-06-30,New Business,carol@writely.ai
+deal_ef33e20b39,usr_04834,Michael Smith - Business,948,Closed Lost,2025-06-12,2025-06-21,New Business,bob@writely.ai
+deal_e646f87df6,usr_04842,Ava Anderson - Business,948,Closed Won,2025-06-13,2025-06-20,New Business,carol@writely.ai
+deal_da67ab8549,usr_04852,Oliver Adams - Business,474,Closed Won,2025-06-14,2025-06-17,New Business,carol@writely.ai
+deal_ffb527658f,usr_04863,Jackson Carter - Business,79,Closed Won,2025-06-15,2025-06-27,New Business,carol@writely.ai
+deal_07ca5d1b48,usr_04869,Lucas Green - Business,474,Closed Lost,2025-06-16,2025-06-26,New Business,alice@writely.ai
+deal_9053f0dd0c,usr_04884,Aaron Miller - Business,79,Closed Won,2025-06-17,2025-06-23,New Business,bob@writely.ai
+deal_5e032eb28a,usr_04905,Elizabeth Miller - Business,79,Closed Won,2025-06-20,2025-06-25,New Business,bob@writely.ai
+deal_c656a09c73,usr_04912,Jackson Harris - Business,948,Closed Lost,2025-06-20,2025-06-28,New Business,carol@writely.ai
+deal_1106e17e8b,usr_04916,Grace Kim - Business,948,Closed Lost,2025-06-21,2025-06-29,New Business,carol@writely.ai
+deal_ae67459c7f,usr_04928,Kevin White - Business,79,Closed Won,2025-06-22,2025-06-27,New Business,bob@writely.ai
+deal_0ca8f106f9,usr_04941,Brian Wilson - Business,79,Closed Won,2025-06-24,2025-06-29,New Business,carol@writely.ai
+deal_7bf58f2de3,usr_04972,Emma Allen - Business,474,Closed Won,2025-06-27,2025-06-28,New Business,bob@writely.ai
+deal_3703c6bb22,usr_04973,Richard Nelson - Business,948,Closed Won,2025-06-27,2025-06-29,New Business,carol@writely.ai
+deal_f176db8bd2,usr_04979,John Thomas - Business,948,Closed Won,2025-06-28,2025-06-30,New Business,alice@writely.ai
+deal_2acc7bed58,usr_04984,Abigail Flores - Business,79,Closed Won,2025-06-28,2025-06-29,New Business,carol@writely.ai
+deal_cc63721a7c,usr_04998,Liam Johnson - Business,474,Closed Won,2025-06-29,2025-06-30,New Business,bob@writely.ai
+deal_b80196f244,usr_02811,Liam Jones - Prospect,948,Proposal Sent,2025-03-14,,New Business,alice@writely.ai
+deal_baf2bcdf72,usr_01315,Ethan Smith - Prospect,79,Proposal Sent,2025-03-27,,New Business,carol@writely.ai
+deal_fcf9bae865,usr_02223,Eric Anderson - Prospect,948,Negotiation,2025-01-25,,New Business,carol@writely.ai
+deal_3ac12198d8,usr_04481,Elijah Reyes - Prospect,948,Demo Scheduled,2025-06-14,,New Business,alice@writely.ai
+deal_a483d4c174,usr_01812,Isabella Patel - Prospect,79,Proposal Sent,2025-06-05,,New Business,alice@writely.ai
+deal_78b7e68e42,usr_01190,Victoria Anderson - Prospect,79,Discovery,2025-05-25,,New Business,carol@writely.ai
+deal_c44bdeb263,usr_00896,Nathan Young - Prospect,79,Proposal Sent,2025-05-24,,New Business,bob@writely.ai
+deal_275a3fed21,usr_02394,Thomas Wright - Prospect,79,Proposal Sent,2025-06-17,,New Business,carol@writely.ai
+deal_623151fca9,usr_03733,Nathan White - Prospect,79,Proposal Sent,2025-03-19,,New Business,carol@writely.ai
+deal_ac5eedf5c0,usr_00536,Chloe Allen - Prospect,79,Negotiation,2025-06-13,,New Business,bob@writely.ai
+deal_85126dc484,usr_04917,Noah Roberts - Prospect,79,Discovery,2025-02-04,,New Business,bob@writely.ai
+deal_a2b7f0b89b,usr_04156,Mason Patel - Prospect,79,Proposal Sent,2025-03-12,,New Business,carol@writely.ai
+deal_3fc0aad7cf,usr_01522,Mia White - Prospect,948,Discovery,2025-01-24,,New Business,alice@writely.ai
+deal_2dad8625ef,usr_04856,Jackson King - Prospect,79,Discovery,2025-01-13,,New Business,bob@writely.ai
+deal_dd47615a0b,usr_01700,Tyler Wang - Prospect,948,Discovery,2025-04-06,,New Business,alice@writely.ai
+deal_93ec0d30b3,usr_04849,Susan Patel - Prospect,79,Proposal Sent,2025-04-19,,New Business,alice@writely.ai
+deal_9a8ff6de7d,usr_03488,James Miller - Prospect,948,Demo Scheduled,2025-06-23,,New Business,bob@writely.ai
+deal_e2e3d8f53e,usr_04173,Justin Green - Prospect,79,Discovery,2025-03-07,,New Business,alice@writely.ai
+deal_1fd632b2a1,usr_00587,Charles Roberts - Prospect,948,Negotiation,2025-04-23,,New Business,bob@writely.ai
+deal_32b8675f16,usr_02101,Isabella Johnson - Prospect,948,Demo Scheduled,2025-04-18,,New Business,bob@writely.ai
+deal_b6c1f0babd,usr_04661,Liam Baker - Prospect,948,Discovery,2025-03-30,,New Business,alice@writely.ai
+deal_7d5531ba4c,usr_01524,John Taylor - Prospect,79,Proposal Sent,2025-05-13,,New Business,carol@writely.ai
+deal_ad9e1adb77,usr_03173,Brian Taylor - Prospect,79,Proposal Sent,2025-06-23,,New Business,carol@writely.ai
+deal_bd39f26bdd,usr_02552,Eric Kumar - Prospect,79,Discovery,2025-06-27,,New Business,bob@writely.ai
+deal_3d57dd5681,usr_02159,Jackson Nelson - Prospect,948,Demo Scheduled,2025-03-06,,New Business,bob@writely.ai
+deal_05a5d65344,usr_04655,Oliver Singh - Prospect,79,Negotiation,2025-02-11,,New Business,carol@writely.ai
+deal_748b98544a,usr_01754,Aiden Smith - Prospect,948,Proposal Sent,2025-02-08,,New Business,carol@writely.ai
+deal_fd41111df4,usr_04336,Justin Baker - Prospect,79,Discovery,2025-03-25,,New Business,alice@writely.ai
+deal_c901f47df9,usr_02086,John Nelson - Prospect,79,Discovery,2025-05-06,,New Business,carol@writely.ai
+deal_1ee890b403,usr_03662,Logan Taylor - Prospect,79,Negotiation,2025-05-09,,New Business,carol@writely.ai
+deal_a007f130ad,usr_01613,Brandon Allen - Prospect,948,Proposal Sent,2025-01-30,,New Business,carol@writely.ai
+deal_6922985bb0,usr_03901,Thomas Miller - Prospect,948,Negotiation,2025-03-06,,New Business,alice@writely.ai
+deal_8160d09bb5,usr_04692,Charles Jones - Prospect,948,Demo Scheduled,2025-03-19,,New Business,carol@writely.ai
+deal_5bb42d673b,usr_04551,Susan Mitchell - Prospect,948,Demo Scheduled,2025-01-10,,New Business,carol@writely.ai
+deal_333785a47d,usr_04776,Patricia Kim - Prospect,948,Proposal Sent,2025-01-08,,New Business,bob@writely.ai
+deal_138a7b39aa,usr_03288,Linda Kumar - Prospect,948,Discovery,2025-05-13,,New Business,carol@writely.ai
+deal_f47f41f4ab,usr_04229,James Taylor - Prospect,79,Proposal Sent,2025-06-16,,New Business,carol@writely.ai
+deal_7721f585ee,usr_02745,William Singh - Prospect,948,Proposal Sent,2025-04-20,,New Business,bob@writely.ai
+deal_9ff6699e31,usr_02155,Charles Brown - Prospect,948,Discovery,2025-03-23,,New Business,bob@writely.ai
+deal_08a022355f,usr_00328,Logan Singh - Prospect,79,Demo Scheduled,2025-01-20,,New Business,alice@writely.ai
+deal_99d868e9a2,usr_03940,Thomas Roberts - Prospect,79,Proposal Sent,2025-03-16,,New Business,carol@writely.ai
+deal_fc27a20b8a,usr_00526,Mason Carter - Prospect,948,Proposal Sent,2025-01-06,,New Business,alice@writely.ai
+deal_153e87e46e,usr_01602,Oliver Baker - Prospect,948,Demo Scheduled,2025-01-20,,New Business,carol@writely.ai
+deal_0ded970d28,usr_02784,Evelyn Williams - Prospect,79,Negotiation,2025-05-20,,New Business,carol@writely.ai
+deal_fa3945a794,usr_03471,Jackson Brown - Prospect,79,Demo Scheduled,2025-05-26,,New Business,bob@writely.ai
+deal_484f99150d,usr_04665,Linda Allen - Prospect,79,Demo Scheduled,2025-02-14,,New Business,carol@writely.ai
+deal_ef00d8e317,usr_02890,Mary Brown - Prospect,948,Discovery,2025-04-17,,New Business,bob@writely.ai
+deal_b335e7f02e,usr_03489,Charles White - Prospect,79,Demo Scheduled,2025-04-26,,New Business,carol@writely.ai
+deal_dae1fb266f,usr_04862,Chloe Nguyen - Prospect,79,Negotiation,2025-06-09,,New Business,bob@writely.ai
+deal_afa4102948,usr_02543,Sophia Williams - Prospect,948,Discovery,2025-02-08,,New Business,carol@writely.ai
+deal_be3b6b7166,usr_03897,Brandon Moore - Prospect,79,Negotiation,2025-05-23,,New Business,alice@writely.ai
+deal_5d891d3c47,usr_03062,Nathan Anderson - Prospect,948,Discovery,2025-05-06,,New Business,carol@writely.ai
+deal_52ff452a89,usr_02240,Mason Davis - Prospect,948,Proposal Sent,2025-05-13,,New Business,bob@writely.ai
+deal_c186b89763,usr_04098,Elijah Singh - Prospect,948,Proposal Sent,2025-06-29,,New Business,alice@writely.ai
+deal_a7ae049652,usr_01861,Charlotte Flores - Prospect,79,Discovery,2025-04-01,,New Business,carol@writely.ai
+deal_252775269d,usr_04793,Ethan Anderson - Prospect,948,Proposal Sent,2025-06-08,,New Business,carol@writely.ai
+deal_173353a968,usr_00331,John Williams - Prospect,948,Negotiation,2025-04-02,,New Business,bob@writely.ai
+deal_d9ab2c14e2,usr_01143,Madison Jackson - Prospect,79,Proposal Sent,2025-06-24,,New Business,bob@writely.ai
+deal_e0fb0ce6a4,usr_03823,Victoria Jackson - Prospect,948,Discovery,2025-04-08,,New Business,alice@writely.ai
+deal_9940ffb9bc,usr_00375,Brandon Williams - Prospect,79,Negotiation,2025-02-17,,New Business,alice@writely.ai
+deal_df0e3fdcf9,usr_00396,Linda Jones - Prospect,79,Proposal Sent,2025-02-13,,New Business,alice@writely.ai
+deal_7a15feb487,usr_01056,Elijah Adams - Prospect,948,Demo Scheduled,2025-01-08,,New Business,bob@writely.ai
+deal_504e85d497,usr_00243,Ella Smith - Prospect,948,Proposal Sent,2025-03-31,,New Business,carol@writely.ai
+deal_f42211c7df,usr_03151,Ethan Patel - Prospect,948,Negotiation,2025-06-19,,New Business,alice@writely.ai
+deal_4b3d5939ef,usr_03618,Evelyn Brown - Prospect,948,Discovery,2025-02-06,,New Business,bob@writely.ai
+deal_88b1f612bb,usr_04420,David Wright - Prospect,79,Negotiation,2025-05-20,,New Business,bob@writely.ai
+deal_1d46275120,usr_01326,Eric White - Prospect,948,Negotiation,2025-01-09,,New Business,bob@writely.ai
+deal_699b7528ce,usr_02403,Eric Baker - Prospect,948,Discovery,2025-04-11,,New Business,bob@writely.ai
+deal_b38405e596,usr_01196,Lily Lee - Prospect,79,Negotiation,2025-01-16,,New Business,alice@writely.ai
+deal_66d3798c22,usr_04911,Linda Moore - Prospect,948,Negotiation,2025-03-14,,New Business,bob@writely.ai
+deal_3a4d14b2e4,usr_01353,Eric Garcia - Prospect,79,Demo Scheduled,2025-03-16,,New Business,bob@writely.ai
+deal_df662c61da,usr_02689,Brandon Nguyen - Prospect,948,Proposal Sent,2025-06-18,,New Business,alice@writely.ai
+deal_e768f8fed5,usr_01872,Charles Taylor - Prospect,948,Discovery,2025-02-05,,New Business,carol@writely.ai
+deal_df645f4159,usr_00446,Barbara Carter - Prospect,948,Discovery,2025-05-11,,New Business,bob@writely.ai
+deal_fe081f16a3,usr_02711,Madison Anderson - Prospect,79,Negotiation,2025-04-12,,New Business,bob@writely.ai
+deal_4f9efe0e1b,usr_04234,Victoria Adams - Prospect,79,Proposal Sent,2025-04-24,,New Business,bob@writely.ai
+deal_c6ad529c2c,usr_01618,Natalie Patel - Prospect,79,Discovery,2025-01-02,,New Business,alice@writely.ai
+deal_ec1421ea71,usr_04920,Adam Taylor - Prospect,79,Discovery,2025-06-25,,New Business,carol@writely.ai
+deal_e7bcb5c507,usr_02351,Adam King - Prospect,948,Discovery,2025-03-17,,New Business,carol@writely.ai
+deal_815e323caf,usr_00451,Ella Baker - Prospect,79,Discovery,2025-04-26,,New Business,alice@writely.ai
+deal_2025f7a95c,usr_02723,Karen Allen - Prospect,79,Negotiation,2025-01-16,,New Business,carol@writely.ai
+deal_1dc3fbeb5f,usr_03676,Eric Singh - Prospect,79,Demo Scheduled,2025-04-19,,New Business,alice@writely.ai
+deal_c307e46dfa,usr_00850,Brandon Harris - Prospect,948,Demo Scheduled,2025-01-19,,New Business,bob@writely.ai
+deal_d7685fe228,usr_01008,Patricia Kim - Prospect,948,Discovery,2025-01-19,,New Business,carol@writely.ai
+deal_e69475476c,usr_01874,Harper Thomas - Prospect,79,Negotiation,2025-05-24,,New Business,bob@writely.ai
+deal_9e2239ca8e,usr_02776,Aaron Smith - Prospect,948,Negotiation,2025-05-25,,New Business,alice@writely.ai
+deal_314660bd64,usr_02068,Jackson Jackson - Prospect,79,Discovery,2025-04-11,,New Business,bob@writely.ai
+deal_340c1caee5,usr_02909,Logan Baker - Prospect,948,Proposal Sent,2025-05-26,,New Business,alice@writely.ai
+deal_01b8f20f18,usr_01916,Barbara Nelson - Prospect,79,Negotiation,2025-01-26,,New Business,bob@writely.ai
+deal_a2b6e0c253,usr_00292,Nathan Reyes - Prospect,79,Proposal Sent,2025-01-25,,New Business,carol@writely.ai
+deal_34a389e4c5,usr_00088,Mason Thompson - Prospect,79,Demo Scheduled,2025-04-10,,New Business,alice@writely.ai
+deal_1072823c5b,usr_04857,Oliver Wright - Prospect,948,Negotiation,2025-03-07,,New Business,carol@writely.ai
+deal_4fa5a6d9b7,usr_02995,Aiden Miller - Prospect,79,Negotiation,2025-04-06,,New Business,alice@writely.ai
+deal_1933fe167d,usr_00134,Nathan Anderson - Prospect,79,Demo Scheduled,2025-01-17,,New Business,carol@writely.ai
+deal_938e42d07b,usr_04280,Oliver Johnson - Prospect,948,Proposal Sent,2025-04-21,,New Business,alice@writely.ai
+deal_b74a39a6c4,usr_04257,Ella Harris - Prospect,79,Demo Scheduled,2025-03-05,,New Business,alice@writely.ai
+deal_0e9f8f33b5,usr_03990,Abigail King - Prospect,948,Negotiation,2025-06-05,,New Business,alice@writely.ai
+deal_3b71b90502,usr_01624,Jennifer Allen - Prospect,948,Proposal Sent,2025-04-30,,New Business,alice@writely.ai
+deal_649da3ce46,usr_00531,Sarah Kumar - Prospect,948,Negotiation,2025-05-09,,New Business,bob@writely.ai
+deal_11febfc24b,usr_02334,Emma Miller - Prospect,79,Discovery,2025-06-17,,New Business,carol@writely.ai
+deal_399294fb26,usr_00219,Richard Wang - Prospect,79,Proposal Sent,2025-03-26,,New Business,bob@writely.ai
+deal_3992677bbb,usr_04661,Liam Baker - Prospect,948,Discovery,2025-03-16,,New Business,alice@writely.ai
+deal_580df08658,usr_01294,Hannah Martin - Prospect,79,Negotiation,2025-02-02,,New Business,bob@writely.ai
+deal_2780a75d6f,usr_00942,Ethan Garcia - Prospect,79,Proposal Sent,2025-02-18,,New Business,carol@writely.ai
+deal_3f99a6882f,usr_02026,Robert Thompson - Prospect,79,Negotiation,2025-02-03,,New Business,carol@writely.ai
+deal_696da0b48e,usr_02478,Emily Flores - Prospect,79,Demo Scheduled,2025-02-25,,New Business,alice@writely.ai
+deal_6c33038470,usr_04312,Hannah Lee - Prospect,79,Proposal Sent,2025-01-05,,New Business,alice@writely.ai
+deal_887f17cf76,usr_03942,Sophia White - Prospect,79,Proposal Sent,2025-03-20,,New Business,alice@writely.ai
+deal_6da36ec79d,usr_02437,Noah Wilson - Prospect,948,Proposal Sent,2025-04-26,,New Business,bob@writely.ai
+deal_f3f91d6dfe,usr_03452,Linda Patel - Prospect,948,Proposal Sent,2025-03-28,,New Business,bob@writely.ai
+deal_c881f943ec,usr_02472,Olivia Garcia - Prospect,948,Negotiation,2025-05-16,,New Business,bob@writely.ai
+deal_61a7308d88,usr_03795,Aiden Miller - Prospect,948,Proposal Sent,2025-04-15,,New Business,alice@writely.ai
+deal_23dd1f4d5c,usr_03185,Aiden Smith - Prospect,79,Negotiation,2025-02-12,,New Business,carol@writely.ai
+deal_2398dc2d3b,usr_02848,Liam Carter - Prospect,79,Discovery,2025-05-28,,New Business,alice@writely.ai
+deal_59a7c21d3b,usr_03909,Logan Johnson - Prospect,948,Proposal Sent,2025-04-10,,New Business,carol@writely.ai
+deal_c33b995fd5,usr_03925,Mia Baker - Prospect,948,Negotiation,2025-02-24,,New Business,alice@writely.ai
+deal_93a7e5ccc1,usr_01686,Barbara Flores - Prospect,948,Discovery,2025-02-12,,New Business,alice@writely.ai
+deal_fdfa81b2d8,usr_04017,Barbara Reyes - Prospect,948,Discovery,2025-02-10,,New Business,bob@writely.ai
+deal_bfb18b5be8,usr_02081,Richard White - Prospect,948,Proposal Sent,2025-01-11,,New Business,carol@writely.ai
+deal_bd5268fc9b,usr_04770,Adam White - Prospect,948,Proposal Sent,2025-05-15,,New Business,bob@writely.ai
