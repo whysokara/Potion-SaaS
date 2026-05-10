@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: stripe
+    database: POTION
+    schema: RAW
+    tables:
+      - name: stripe_customers
+        description: Raw customer data from Stripe.
+      - name: stripe_invoices
+        description: Raw invoice data from Stripe.
+      - name: stripe_mrr_snapshot
+        description: Monthly MRR snapshots from Stripe.
+      - name: stripe_subscriptions
+        description: Raw subscription data from Stripe.
