@@ -1,6 +1,8 @@
 .env
+.env.example
 target/
 dbt_packages/
 logs/
 Plan.md
 Prompts.md
+.venv
