@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: dim_stripe_customers
+    description: One record per stripe customer with aggregated revenue and subscription status.
+    columns:
+      - name: stripe_customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_stripe_invoices
+    description: All invoices from Stripe enriched with customer metadata.
+    columns:
+      - name: invoice_id
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_stripe_subscriptions
+    description: All subscriptions from Stripe enriched with customer metadata.
+    columns:
+      - name: subscription_id
+        tests:
+          - unique
+          - not_null
