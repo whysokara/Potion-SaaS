@@ -34,9 +34,44 @@ models:
     staging:
       +materialized: view
       +schema: staging
+      +tags: ["staging"]
+      stripe:
+        +tags: ["stripe", "finance"]
+      hubspot:
+        +tags: ["hubspot", "marketing"]
+      product:
+        +tags: ["product", "engagement"]
+      sales:
+        +tags: ["sales", "crm"]
+      analytics:
+        +tags: ["analytics", "kpi"]
+        
     intermediate:
       +materialized: view
       +schema: intermediate
+      +tags: ["intermediate"]
+      stripe:
+        +tags: ["stripe"]
+      hubspot:
+        +tags: ["hubspot"]
+      product:
+        +tags: ["product"]
+      sales:
+        +tags: ["sales"]
+      analytics:
+        +tags: ["analytics"]
+        
     marts:
       +materialized: table
       +schema: marts
+      +tags: ["marts"]
+      stripe:
+        +tags: ["stripe", "finance"]
+      sales:
+        +tags: ["sales", "crm"]
+      analytics:
+        +tags: ["analytics", "kpi"]
+      product:
+        +tags: ["product", "engagement"]
+      customers:
+        +tags: ["customers", "core"]
