@@ -1,11 +1,7 @@
 with deals as (
-
-    select * from {{ ref('int_hubspot__deals_enriched') }}
-
+    select * from {{ ref('int_sales__deals_enriched') }}
 ),
-
 final as (
-
     select
         deal_id,
         user_id,
@@ -17,10 +13,11 @@ final as (
         deal_type,
         deal_owner,
         lead_source,
-        contact_country as country,
+        industry,
+        company_size,
         
         -- Calculate Sales Velocity
-        datediff('day', created_at_timestamp, closed_at_timestamp) as days_to_close,
+        datediff('day', created_at_timestamp::timestamp, closed_at_timestamp::timestamp) as days_to_close,
         
         -- Categorize Deal Size
         case 
@@ -30,7 +27,5 @@ final as (
         end as market_segment
 
     from deals
-
 )
-
 select * from final
