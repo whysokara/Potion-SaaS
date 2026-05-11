@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: analytics
+    database: POTION
+    schema: RAW
+    tables:
+      - name: analytics_dau_mau
+      - name: analytics_cac_ltv
+      - name: analytics_cohorts
+      - name: analytics_funnel

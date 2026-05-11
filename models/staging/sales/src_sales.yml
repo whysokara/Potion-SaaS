@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: sales
+    database: POTION
+    schema: RAW
+    tables:
+      - name: sales_closed_deals
+      - name: sales_demo_requests
+      - name: sales_outbound_touches

@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: stg_hubspot__contacts
+    description: Staging model for HubSpot contacts.
+    columns:
+      - name: hs_contact_id
+        tests:
+          - unique
+          - not_null
+      - name: user_id
+        tests:
+          - not_null
+
+  - name: stg_hubspot__deals
+    description: Staging model for HubSpot deals.
+    columns:
+      - name: deal_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_hubspot__companies
+    description: Staging model for HubSpot companies.
+    columns:
+      - name: hs_company_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_hubspot__email_events
+    description: Staging model for HubSpot email events.
+    columns:
+      - name: email_event_id
+        tests:
+          - unique
+          - not_null

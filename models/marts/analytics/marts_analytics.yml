@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: fct_growth_kpis
+    description: "Fact table for Growth KPIs including CAC, LTV, and ROI per channel."

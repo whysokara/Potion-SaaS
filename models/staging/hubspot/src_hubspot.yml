@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: hubspot
+    database: POTION
+    schema: RAW
+    tables:
+      - name: hubspot_contacts
+        description: Raw contact data from HubSpot.
+      - name: hubspot_deals
+        description: Raw deal data from HubSpot.
+      - name: hubspot_companies
+        description: Raw company data from HubSpot.
+      - name: hubspot_email_events
+        description: Raw email event data from HubSpot.

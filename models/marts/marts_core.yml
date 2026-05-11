@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: "A comprehensive dimension table for customers, combining HubSpot profile data with Stripe revenue metrics."
+    columns:
+      - name: user_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_status
+        description: "Whether the customer is 'paying' or 'non-paying' based on lifetime revenue."
+
+  - name: fct_deals
+    description: "A fact table for all sales deals tracked in HubSpot, enriched with lead source and sales velocity metrics."
+    columns:
+      - name: deal_id
+        tests:
+          - unique
+          - not_null

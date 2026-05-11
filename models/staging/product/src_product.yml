@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: product
+    database: POTION
+    schema: RAW
+    tables:
+      - name: product_events
+      - name: product_sessions
+      - name: product_page_views
+      - name: product_feature_usage
