@@ -9,6 +9,7 @@ select
     i.invoice_id,
     i.subscription_id,
     i.user_id,
+    c.stripe_customer_id,
     c.email,
     c.country,
     i.amount_usd,

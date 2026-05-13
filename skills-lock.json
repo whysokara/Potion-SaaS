@@ -6,6 +6,12 @@
       "sourceType": "github",
       "skillPath": "skills/dbt/skills/adding-dbt-unit-test/SKILL.md",
       "computedHash": "f2c62f649bb045e00df5cb45bd7d5b8a9da43568b5b22d20ce5aae6d15604d81"
+    },
+    "testing-dbt-models": {
+      "source": "altimateai/data-engineering-skills",
+      "sourceType": "github",
+      "skillPath": "skills/dbt/testing-dbt-models/SKILL.md",
+      "computedHash": "47827fd33c4a286ba224075898e17ab9afaa62348ee74fbc0686a064ba0bfce8"
     }
   }
 }
