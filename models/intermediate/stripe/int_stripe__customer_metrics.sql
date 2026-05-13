@@ -26,8 +26,7 @@ active_subscriptions as (
                row_number() over (partition by user_id order by started_at_timestamp desc) as rn
         from subscriptions
         where subscription_status in ('active', 'past_due')
-    )
-    where rn = 1
+    )  where rn = 1
 )
 
 select

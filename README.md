@@ -2,7 +2,54 @@
 
 ## 🚀 Overview
 This repository contains a production-ready end-to-end data engineering platform for **Potion**, a US-based AI Productivity SaaS startup. The platform provides actionable insights into growth, sales performance, and customer behavior by integrating synthetic data from multiple sources into a centralized Snowflake Data Warehouse.
+```mermaid
+flowchart TD
+    subgraph Sources["📦 Data Sources (CSV)"]
+        ST["💳 Stripe"]
+        SA["📊 Sales"]
+        PR["🧩 Product"]
+        HS["🧡 HubSpot"]
+        AN["📈 Analytics"]
+    end
 
+    subgraph Snowflake_Raw["❄️ Snowflake — Potion DB"]
+        RAW["RAW Schema\nstripe · sales · product · hubspot · analytics"]
+    end
+
+    subgraph DBT["🔧 dbt — ETL"]
+        STG["Staging\nstg_* models"]
+        INT["Intermediate\nint_* models"]
+        MRT["Marts\ndim_* · fct_*"]
+        STG --> INT --> MRT
+    end
+
+    subgraph Dagster["⚙️ Dagster — Orchestration"]
+        ORC["schedules · sensors · asset lineage"]
+    end
+
+    subgraph Snowflake_Marts["❄️ Snowflake — Potion DB"]
+        SCHEMAS["STAGING · INTERMEDIATE · MARTS schemas"]
+    end
+
+    MB["📊 Metabase\ndashboards · ad hoc queries"]
+
+    ST & SA & PR & HS & AN --> RAW
+    RAW --> STG
+    Dagster -.orchestrates.-> DBT
+    MRT --> SCHEMAS
+    SCHEMAS --> MB
+
+    FT["🔌 Fivetran — planned"]
+    FT -. replaces CSVs .-> RAW
+
+    style Sources fill:#f5f0ff,stroke:#9b8fe0
+    style Snowflake_Raw fill:#e8f4fd,stroke:#5aace0
+    style DBT fill:#e8fdf0,stroke:#5ae090
+    style Dagster fill:#fff8e8,stroke:#e0b85a
+    style Snowflake_Marts fill:#e8f4fd,stroke:#5aace0
+    style MB fill:#e8f4fd,stroke:#5a8ae0
+    style FT fill:#fef0e8,stroke:#e0805a
+```
 ## 🏗 Architecture
 The platform follows a modern data stack (MDS) architecture, now fully implemented with local ingestion and dbt transformation:
 

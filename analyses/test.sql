@@ -1,0 +1,1 @@
+select * from POTION.RAW.hubspot_contacts

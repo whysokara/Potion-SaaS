@@ -116,6 +116,7 @@ unit_tests:
         rows:
           - {user_id: user_1, subscription_id: sub_1, subscription_status: cancelled, started_at_timestamp: '2024-01-01 00:00:00', plan_name: basic, amount_usd: 100}
           - {user_id: user_1, subscription_id: sub_2, subscription_status: active, started_at_timestamp: '2024-02-01 00:00:00', plan_name: pro, amount_usd: 150}
+          - {user_id: user_1, subscription_id: sub_1_alt, subscription_status: active, started_at_timestamp: '2024-01-15 00:00:00', plan_name: pro, amount_usd: 150}
           - {user_id: user_2, subscription_id: sub_3, subscription_status: past_due, started_at_timestamp: '2024-01-15 00:00:00', plan_name: pro, amount_usd: 50}
           - {user_id: user_3, subscription_id: sub_4, subscription_status: active, started_at_timestamp: '2024-03-01 00:00:00', plan_name: enterprise, amount_usd: 500}
     expect:
