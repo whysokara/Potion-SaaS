@@ -1,3 +1,10 @@
+{{
+    config(
+        materialized='incremental',
+        unique_key='hs_company_id'
+    )
+}}
+
 with source as (
 
     select * from {{ source('hubspot', 'hubspot_companies') }}

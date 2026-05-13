@@ -1,3 +1,10 @@
+{{
+    config(
+        materialized='incremental',
+        unique_key='deal_id'
+    )
+}}
+
 with deals as (
     select * from {{ ref('int_sales__deals_enriched') }}
 ),

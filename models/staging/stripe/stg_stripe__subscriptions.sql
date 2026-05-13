@@ -1,3 +1,10 @@
+{{
+    config(
+        materialized='incremental',
+        unique_key='subscription_id'
+    )
+}}
+
 with source as (
 
     select * from {{ source('stripe', 'stripe_subscriptions') }}

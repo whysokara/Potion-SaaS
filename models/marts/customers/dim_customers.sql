@@ -1,3 +1,10 @@
+{{
+    config(
+        materialized='incremental',
+        unique_key='user_id'
+    )
+}}
+
 with customer_base as (
 
     select * from {{ ref('int_hubspot__contacts_joined_stripe') }}

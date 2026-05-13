@@ -1,5 +1,16 @@
+{{
+    config(
+        materialized='incremental',
+        unique_key='event_id'
+    )
+}}
+
 with source as (
     select * from {{ source('product', 'product_events') }}
+    {% if is_incremental() %}
+    -- 6 hour lookback for late arriving data
+    where event_time > (select dateadd('hour', -6, max(event_at_timestamp)) from {{ this }})
+    {% endif %}
 ),
 renamed as (
     select

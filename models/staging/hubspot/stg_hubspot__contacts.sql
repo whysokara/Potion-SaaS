@@ -1,3 +1,10 @@
+{{
+    config(
+        materialized='incremental',
+        unique_key='hs_contact_id'
+    )
+}}
+
 with source as (
 
     select * from {{ source('hubspot', 'hubspot_contacts') }}
