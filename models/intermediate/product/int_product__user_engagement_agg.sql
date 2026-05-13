@@ -10,5 +10,14 @@ agg as (
         max(last_used_at) as last_product_activity
     from usage
     group by 1
+),
+contacts as (
+    select * from {{ ref('stg_hubspot__contacts') }}
+),
+final as (
+    select
+        agg.*
+    from agg
+    inner join contacts on agg.user_id = contacts.user_id
 )
-select * from agg
+select * from final

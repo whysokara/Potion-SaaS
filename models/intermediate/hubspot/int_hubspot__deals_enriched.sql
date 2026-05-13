@@ -26,7 +26,7 @@ joined as (
         contacts.country as contact_country
 
     from deals
-    left join contacts 
+    inner join contacts 
         on deals.user_id = contacts.user_id
 
 )

@@ -11,6 +11,6 @@ joined as (
         contacts.industry,
         contacts.company_size
     from deals
-    left join contacts on deals.user_id = contacts.user_id
+    inner join contacts on deals.user_id = contacts.user_id
 )
 select * from joined

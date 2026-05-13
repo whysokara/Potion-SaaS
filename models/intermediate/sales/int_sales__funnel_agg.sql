@@ -7,6 +7,9 @@ demos as (
 deals as (
     select * from {{ ref('stg_sales__closed_deals') }}
 ),
+contacts as (
+    select * from {{ ref('stg_hubspot__contacts') }}
+),
 joined as (
     select
         touches.user_id,
@@ -15,6 +18,7 @@ joined as (
         count(distinct case when demos.is_showed_up then demos.demo_id end) as total_demos_attended,
         count(distinct deals.deal_id) as total_deals_closed
     from touches
+    inner join contacts on touches.user_id = contacts.user_id
     left join demos on touches.user_id = demos.user_id
     left join deals on touches.user_id = deals.user_id
     group by 1
