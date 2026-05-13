@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: int_product__events_enriched
+    description: Intermediate model enriching product events with session data.
+    columns:
+      - name: event_id
+        description: The primary key of the model.
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('stg_product__events')
+              field: event_id
+      - name: session_id
+        description: Foreign key to sessions.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_product__sessions')
+              field: session_id
+      - name: user_id
+        description: Foreign key to users.
+        tests:
+          - not_null
+      - name: event_type
+        description: Type of the product event.
+        tests:
+          - not_null
+
+  - name: int_product__user_engagement_agg
+    description: Intermediate model aggregating user engagement metrics.
+    columns:
+      - name: user_id
+        description: The primary key of the model.
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('stg_hubspot__contacts')
+              field: user_id

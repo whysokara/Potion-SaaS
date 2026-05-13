@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: stg_analytics__cac_ltv
+    description: "Staging model for customer acquisition cost and lifetime value data."
+    columns:
+      - name: report_month
+        description: "The month of the report."
+        tests:
+          - not_null
+      - name: channel
+        description: "The marketing channel."
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['organic', 'paid_google', 'paid_linkedin', 'referral']
+
+  - name: stg_analytics__cohorts
+    description: "Staging model for user cohort retention data."
+    columns:
+      - name: cohort_month
+        description: "The month the cohort was established."
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_analytics__dau_mau
+    description: "Staging model for Daily Active Users (DAU) and Monthly Active Users (MAU) data."
+    columns:
+      - name: report_month
+        description: "The month of the report."
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_analytics__funnel
+    description: "Staging model for marketing and signup funnel data."
+    columns:
+      - name: report_month
+        description: "The month of the report."
+        tests:
+          - unique
+          - not_null

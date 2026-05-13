@@ -8,8 +8,24 @@ models:
         tests:
           - unique
           - not_null
+      - name: stripe_customer_id
+        tests:
+          - relationships:
+              to: ref('dim_stripe_customers')
+              field: stripe_customer_id
       - name: customer_status
         description: "Whether the customer is 'paying' or 'non-paying' based on lifetime revenue."
+
+  - name: dim_customers_enriched
+    description: "An enriched customer dimension table adding product engagement metrics to the core customer profile."
+    columns:
+      - name: user_id
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: user_id
 
   - name: fct_deals
     description: "A fact table for all sales deals tracked in HubSpot, enriched with lead source and sales velocity metrics."
@@ -18,3 +34,9 @@ models:
         tests:
           - unique
           - not_null
+      - name: user_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: user_id

@@ -8,6 +8,12 @@ models:
         tests:
           - unique
           - not_null
+      - name: user_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: user_id
 
   - name: fct_stripe_invoices
     description: All invoices from Stripe enriched with customer metadata.
@@ -16,6 +22,12 @@ models:
         tests:
           - unique
           - not_null
+      - name: stripe_customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_stripe_customers')
+              field: stripe_customer_id
 
   - name: fct_stripe_subscriptions
     description: All subscriptions from Stripe enriched with customer metadata.
@@ -24,3 +36,9 @@ models:
         tests:
           - unique
           - not_null
+      - name: stripe_customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_stripe_customers')
+              field: stripe_customer_id

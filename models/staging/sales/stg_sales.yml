@@ -1,0 +1,44 @@
+version: 2
+
+models:
+  - name: stg_sales__closed_deals
+    description: "Staging model for closed sales deals."
+    columns:
+      - name: deal_id
+        description: "The primary key for each deal."
+        tests:
+          - unique
+          - not_null
+      - name: deal_stage
+        description: "The current stage of the deal."
+        tests:
+          - accepted_values:
+              values: ['Closed Lost', 'Closed Won']
+      - name: deal_type
+        description: "The type of deal."
+        tests:
+          - accepted_values:
+              values: ['New Business']
+
+  - name: stg_sales__demo_requests
+    description: "Staging model for demo requests."
+    columns:
+      - name: demo_id
+        description: "The primary key for each demo request."
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_sales__outbound_touches
+    description: "Staging model for outbound sales touches."
+    columns:
+      - name: touch_id
+        description: "The primary key for each outbound touch."
+        tests:
+          - unique
+          - not_null
+      - name: touch_type
+        description: "The type of touch performed."
+        tests:
+          - accepted_values:
+              values: ['call', 'cold_email', 'follow_up_email', 'linkedin_dm', 'linkedin_inmail', 'voicemail']

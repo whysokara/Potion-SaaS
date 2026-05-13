@@ -1,0 +1,56 @@
+version: 2
+
+models:
+  - name: stg_product__events
+    description: "Staging model for product event data."
+    columns:
+      - name: event_id
+        description: "The primary key for each event."
+        tests:
+          - unique
+          - not_null
+      - name: session_id
+        description: "The ID of the session the event occurred in."
+        tests:
+          - not_null
+      - name: user_id
+        description: "The ID of the user who performed the event."
+        tests:
+          - not_null
+
+  - name: stg_product__feature_usage
+    description: "Staging model for product feature usage data."
+    columns:
+      - name: usage_id
+        description: "The primary key for each usage record."
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_product__page_views
+    description: "Staging model for product page view data."
+    columns:
+      - name: page_view_id
+        description: "The primary key for each page view record."
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_product__sessions
+    description: "Staging model for product session data."
+    columns:
+      - name: session_id
+        description: "The primary key for each session record."
+        tests:
+          - unique
+          - not_null
+      - name: device
+        description: "The device used during the session."
+        tests:
+          - accepted_values:
+              values: ['desktop', 'mobile', 'tablet']
+      - name: browser
+        description: "The browser used during the session."
+        tests:
+          - accepted_values:
+              values: ['Chrome', 'Edge', 'Firefox', 'Safari']

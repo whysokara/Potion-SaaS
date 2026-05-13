@@ -1,0 +1,125 @@
+version: 2
+
+models:
+  - name: int_stripe__customer_metrics
+    description: Intermediate model aggregating Stripe customer metrics.
+    columns:
+      - name: user_id
+        description: The primary key of the model.
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('stg_stripe__customers')
+              field: user_id
+      - name: current_subscription_id
+        description: Foreign key to the current active subscription.
+        tests:
+          - relationships:
+              to: ref('stg_stripe__subscriptions')
+              field: subscription_id
+
+  - name: int_stripe__customers
+    description: Intermediate model enriching Stripe customer data with metrics.
+    columns:
+      - name: stripe_customer_id
+        description: The primary key of the model.
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('stg_stripe__customers')
+              field: stripe_customer_id
+      - name: user_id
+        description: Foreign key to users.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_stripe__customers')
+              field: user_id
+
+  - name: int_stripe__invoices
+    description: Intermediate model for Stripe invoices enriched with customer data.
+    columns:
+      - name: invoice_id
+        description: The primary key of the model.
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('stg_stripe__invoices')
+              field: invoice_id
+      - name: subscription_id
+        description: Foreign key to subscriptions.
+        tests:
+          - relationships:
+              to: ref('stg_stripe__subscriptions')
+              field: subscription_id
+      - name: user_id
+        description: Foreign key to users.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_stripe__customers')
+              field: user_id
+      - name: invoice_status
+        description: Status of the invoice.
+        tests:
+          - not_null
+
+  - name: int_stripe__subscriptions
+    description: Intermediate model for Stripe subscriptions enriched with customer data.
+    columns:
+      - name: subscription_id
+        description: The primary key of the model.
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('stg_stripe__subscriptions')
+              field: subscription_id
+      - name: subscription_status
+        description: Status of the subscription.
+        tests:
+          - not_null
+      - name: billing_interval
+        description: Billing interval of the subscription.
+        tests:
+          - not_null
+      - name: stripe_customer_id
+        description: Foreign key to Stripe customers.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_stripe__customers')
+              field: stripe_customer_id
+      - name: user_id
+        description: Foreign key to users.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_stripe__customers')
+              field: user_id
+
+unit_tests:
+  - name: test_int_stripe__customer_metrics__latest_active_subscription
+    description: "Verifies that the model picks the latest active/past_due subscription and aggregates invoices correctly."
+    model: int_stripe__customer_metrics
+    given:
+      - input: ref('stg_stripe__invoices')
+        rows:
+          - {user_id: user_1, invoice_id: inv_1, invoice_status: paid, amount_usd: 100, invoice_date: '2024-01-01'}
+          - {user_id: user_1, invoice_id: inv_2, invoice_status: paid, amount_usd: 150, invoice_date: '2024-02-01'}
+          - {user_id: user_1, invoice_id: inv_3, invoice_status: open, amount_usd: 200, invoice_date: '2024-03-01'}
+          - {user_id: user_2, invoice_id: inv_4, invoice_status: paid, amount_usd: 50, invoice_date: '2024-01-15'}
+      - input: ref('stg_stripe__subscriptions')
+        rows:
+          - {user_id: user_1, subscription_id: sub_1, subscription_status: cancelled, started_at_timestamp: '2024-01-01 00:00:00', plan_name: basic, amount_usd: 100}
+          - {user_id: user_1, subscription_id: sub_2, subscription_status: active, started_at_timestamp: '2024-02-01 00:00:00', plan_name: pro, amount_usd: 150}
+          - {user_id: user_2, subscription_id: sub_3, subscription_status: past_due, started_at_timestamp: '2024-01-15 00:00:00', plan_name: pro, amount_usd: 50}
+          - {user_id: user_3, subscription_id: sub_4, subscription_status: active, started_at_timestamp: '2024-03-01 00:00:00', plan_name: enterprise, amount_usd: 500}
+    expect:
+      rows:
+        - {user_id: user_1, total_invoices: 3, total_revenue_usd: 250, first_invoice_date: '2024-01-01', latest_invoice_date: '2024-03-01', current_subscription_id: sub_2, current_plan_name: pro, current_subscription_status: active, current_mrr: 150}
+        - {user_id: user_2, total_invoices: 1, total_revenue_usd: 50, first_invoice_date: '2024-01-15', latest_invoice_date: '2024-01-15', current_subscription_id: sub_3, current_plan_name: pro, current_subscription_status: past_due, current_mrr: 50}
+        - {user_id: user_3, total_invoices: 0, total_revenue_usd: 0, first_invoice_date: null, latest_invoice_date: null, current_subscription_id: sub_4, current_plan_name: enterprise, current_subscription_status: active, current_mrr: 500}

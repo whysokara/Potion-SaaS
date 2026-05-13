@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: int_analytics__business_kpis
+    description: Intermediate model aggregating business KPIs like DAU/MAU and Funnel metrics.
+    columns:
+      - name: metric_type
+        description: Type of the metric (engagement or funnel).
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['engagement', 'funnel']
+      - name: activity_month
+        description: The month the metric was recorded.
+        tests:
+          - not_null
+
+  - name: int_analytics__growth_metrics
+    description: Intermediate model for growth metrics like CAC, LTV, and conversion rates.
+    columns:
+      - name: report_month
+        description: The month for the report.
+        tests:
+          - not_null
+      - name: channel
+        description: The marketing channel.
+        tests:
+          - not_null
+
+unit_tests:
+  - name: test_int_analytics__business_kpis__union_logic
+    description: "Verifies that engagement and funnel metrics are correctly unioned into a single metric table."
+    model: int_analytics__business_kpis
+    given:
+      - input: ref('stg_analytics__dau_mau')
+        rows:
+          - {report_month: '2024-01-01', daily_active_users: 100, monthly_active_users: 1000}
+      - input: ref('stg_analytics__funnel')
+        rows:
+          - {report_month: '2024-01-01', signups: 50, activated_users: 25, converted_to_paid: 10}
+      - input: ref('stg_analytics__cohorts')
+        rows: []
+    expect:
+      rows:
+        - {metric_type: engagement, activity_month: '2024-01-01', metric_value_1: 100, metric_value_2: 1000, metric_value_3: null}
+        - {metric_type: funnel, activity_month: '2024-01-01', metric_value_1: 50, metric_value_2: 25, metric_value_3: 10}

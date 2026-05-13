@@ -1,0 +1,62 @@
+version: 2
+
+models:
+  - name: int_hubspot__contacts_joined_stripe
+    description: Intermediate model joining HubSpot contacts with Stripe customers.
+    columns:
+      - name: user_id
+        description: The primary key of the model.
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('stg_hubspot__contacts')
+              field: user_id
+      - name: hs_contact_id
+        description: HubSpot contact ID.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_hubspot__contacts')
+              field: hs_contact_id
+      - name: stripe_customer_id
+        description: Stripe customer ID.
+        tests:
+          - relationships:
+              to: ref('stg_stripe__customers')
+              field: stripe_customer_id
+      - name: lifecycle_stage
+        description: Lifecycle stage of the contact.
+        tests:
+          - not_null
+      - name: lead_source
+        description: Lead source of the contact.
+        tests:
+          - not_null
+
+  - name: int_hubspot__deals_enriched
+    description: Intermediate model enriching HubSpot deals with contact information.
+    columns:
+      - name: deal_id
+        description: The primary key of the model.
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('stg_hubspot__deals')
+              field: deal_id
+      - name: user_id
+        description: Foreign key to contacts.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_hubspot__contacts')
+              field: user_id
+      - name: deal_stage
+        description: Current stage of the deal.
+        tests:
+          - not_null
+      - name: deal_type
+        description: Type of the deal.
+        tests:
+          - not_null

@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: fct_product_engagement
+    description: "Daily aggregate of product engagement metrics, specifically Daily Active Users (DAU)."
+    columns:
+      - name: activity_date
+        tests:
+          - unique
+          - not_null

@@ -3,3 +3,20 @@ version: 2
 models:
   - name: fct_growth_kpis
     description: "Fact table for Growth KPIs including CAC, LTV, and ROI per channel."
+    columns:
+      - name: report_month
+        tests:
+          - not_null
+      - name: channel
+        tests:
+          - not_null
+
+  - name: fct_executive_dashboard
+    description: "A high-level dashboard fact table combining growth metrics with business KPIs."
+    columns:
+      - name: report_month
+        tests:
+          - not_null
+      - name: metric_type
+        tests:
+          - not_null
