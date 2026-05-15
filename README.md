@@ -108,6 +108,7 @@ The platform calculates and tracks critical SaaS KPIs in the Marts layer:
     python ingestion/load_stripe_to_snowflake.py
     python ingestion/load_hubspot_to_snowflake.py
     # ... and others in the /ingestion folder
+    
     ```
 4.  *(Optional)* Use the cleanup script to reset your Snowflake environment:
     ```bash
